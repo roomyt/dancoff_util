@@ -1,0 +1,1019 @@
+=csas6 
+KENO input converted from NEWT 
+ce_v7_endf
+'batch_args \-m
+'run=no 
+'/=T-DEPL parm=(centrm,check)
+'/PB CYCLE1 - lattice type2b, 0% void, control blades in
+'/'49gxlib
+'/v7-238
+'/' brian j. ade - updated 2/3/2010
+'/' data taken from:
+'/'    [1] core design and operating data for cycles 1 and 2
+'/'        of peach bottom 2, n. h. larson, electric power
+'/'        research institute.
+'/'    [2] b.j. ade, fueltemp.nb - mathematica notebook for
+'/'        fuel temperature estimates based on moderator
+'/'        temperature.
+'/'    [3] n.e. todreas and m.s. kazimi, nuclear systems i -
+'/'        thermal hydraulic fundamentals, taylor and francis
+'/'        group, new york, 1990.
+'/'    [4] y.a. cengel and m.a. boles, thermodynamics -
+'/'        an engineering approch, steam tables, mcgraw hill,
+'/'        new york, 2006.
+'/'------------------define alias--------------------------
+'/' assembly layout
+'/'              11  12  13  14  15  16  17
+'/'                  22  23  24  25  26  27
+'/'                      33  34  35  36  37
+'/'                          44  45  46  47
+'/'                              55  56  57
+'/'                                  66  67
+'/'                                      77
+read comp
+' w/o U234 .0089*U235, w/o U236 0.0046*U235
+' 7X7 fuel pins
+'
+' Data for fuel pins taken from [1]
+' Density: 10.32 g/cc from "Stack Density" tables 4-9 of [1]
+' Enrichment: 2.93% enr from "U-235 wt%" figures 1-8 of [1]
+' Temp: 948.45 K calculated in [2] from eqn. 8-119 of [3]
+uo2 1 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+' Data for fuel pins taken from [1]
+' Density: 10.32 g/cc from "Stack Density" tables 4-9 of [1]
+' Enrichment: 2.93% enr from "U-235 wt%" figures 1-8 of [1]
+' Temp: 948.45 K calculated in [2] from eqn. 8-119 of [3]
+uo2 201 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+' Data for fuel pins taken from [1]
+' Density: 10.32 g/cc from "Stack Density" tables 4-9 of [1]
+' Enrichment: 2.93% enr from "U-235 wt%" figures 1-8 of [1]
+' Temp: 948.45 K calculated in [2] from eqn. 8-119 of [3]
+uo2 2 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+' Data for fuel pins taken from [1]
+' Density: 10.32 g/cc from "Stack Density" tables 4-9 of [1]
+' Enrichment: 2.93% enr from "U-235 wt%" figures 1-8 of [1]
+' Temp: 948.45 K calculated in [2] from eqn. 8-119 of [3]
+uo2 202 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+' Data for fuel pins taken from [1]
+' Density: 10.32 g/cc from "Stack Density" tables 4-9 of [1]
+' Enrichment: 2.93% enr from "U-235 wt%" figures 1-8 of [1]
+' Temp: 948.45 K calculated in [2] from eqn. 8-119 of [3]
+uo2 212 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+' Data for fuel pins taken from [1]
+' Density: 10.32 g/cc from "Stack Density" tables 4-9 of [1]
+' Enrichment: 2.93% enr from "U-235 wt%" figures 1-8 of [1]
+' Temp: 948.45 K calculated in [2] from eqn. 8-119 of [3]
+uo2 203 den=10.320 1.00 948.45 92235 1.69 92234 0.0150 92236 0.0078 92238 98.2872 end
+' Data for fuel pins taken from [1]
+' Density: 10.32 g/cc from "Stack Density" tables 4-9 of [1]
+' Enrichment: 2.93% enr from "U-235 wt%" figures 1-8 of [1]
+' Temp: 948.45 K calculated in [2] from eqn. 8-119 of [3]
+uo2 213 den=10.320 1.00 948.45 92235 1.69 92234 0.0150 92236 0.0078 92238 98.2872 end
+' Data for fuel pins taken from [1]
+' Density: 10.32 g/cc from "Stack Density" tables 4-9 of [1]
+' Enrichment: 2.93% enr from "U-235 wt%" figures 1-8 of [1]
+' Temp: 948.45 K calculated in [2] from eqn. 8-119 of [3]
+uo2 4 den=10.320 1.00 948.45 92235 1.33 92234 0.0118 92236 0.0061 92238 98.6520 end
+' Data for fuel pins taken from [1]
+' Density: 10.19 g/cc from "Stack Density" of type 5A tables 4-9 of [1]
+' Enrichment: 2.93% enr + 3 wt% Gd2O3 from figures 1-8 of [1]
+' Temp: 948.45 K calculated in [2] from eqn. 8-119 of [3]
+uo2 500 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 501 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 502 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 503 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 504 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 505 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 506 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 507 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 500 den=10.19 0.03 948.45 end
+gd2o3 501 den=10.19 0.03 948.45 end
+gd2o3 502 den=10.19 0.03 948.45 end
+gd2o3 503 den=10.19 0.03 948.45 end
+gd2o3 504 den=10.19 0.03 948.45 end
+gd2o3 505 den=10.19 0.03 948.45 end
+gd2o3 506 den=10.19 0.03 948.45 end
+gd2o3 507 den=10.19 0.03 948.45 end
+'
+' Clad
+' Data for fuel clad taken from [1]
+' Material: Zirc-2 from "Cladding" of tables 4-9 of [1]
+' Density: 6.56 g/cc SCALE standard density assumed
+' Temp: 578.71 K calculated in [2] from eqn. 8-119 of [3]
+zirc2 101 den=6.56 1 578.71 end
+zirc2 102 den=6.56 1 578.71 end
+zirc2 103 den=6.56 1 578.71 end
+zirc2 104 den=6.56 1 578.71 end
+zirc2 105 den=6.56 1 578.71 end
+zirc2 301 den=6.56 1 578.71 end
+zirc2 302 den=6.56 1 578.71 end
+zirc2 303 den=6.56 1 578.71 end
+zirc2 304 den=6.56 1 578.71 end
+zirc2 305 den=6.56 1 578.71 end
+' Channel box
+' Data for fuel clad taken from [1]
+' Material: Zirc-4 from "Channel" of tables 1 and 2 of [1]
+' Density: 6.56 g/cc SCALE standard density assumed
+' Temp: 557.96 K Moderator temperature, Tsat @ 1000 psia, [1]
+zirc4 630 den=6.56 1 557.96 end
+'
+' Control rod blades
+' Material: B4C from Table 11 of [1]
+' ss304 from Table 11 of [1]
+' Density: 70% TD from Table 11 of [1]
+' 7.94 g/cc SCALE default density
+' Temperature: 557.96 K Moderator temperature, Tsat @ 1000 psia, [1]
+ss304 645 den=7.94 1.0000 557.96 end
+b4c 646 den=1.764 1.0000 557.96 end
+'
+' Water Moderator 0% Void
+' Pressure: 1000 pisa assumed from table 15 of [1], Feedwater outlet, turbin inlet
+' Density: calculated with => rho2p = rhof*(1-VF) + rhog*(VF)
+' rhof and rhog taken from saturate liquid water table @ 1000 psia [4]
+' 0.738079 g/cc from sat. liquid density @ 1000 psia, 00V
+' 0.457211 g/cc from sat. liquid density @ 1000 psia, 40V
+' 0.176345 g/cc from sat. liquid density @ 1000 psia, 80V
+' 0.035913 g/cc from sat. liquid density @ 1000 psia, 100V
+' Temperature: 557.95 g/cc from tsat @ 1000 psia [4]
+h2o 111 den=0.738079 1.0000 557.96 end
+h2o 112 den=0.738079 1.0000 557.96 end
+h2o 113 den=0.738079 1.0000 557.96 end
+h2o 114 den=0.738079 1.0000 557.96 end
+h2o 115 den=0.738079 1.0000 557.96 end
+h2o 311 den=0.738079 1.0000 557.96 end
+h2o 312 den=0.738079 1.0000 557.96 end
+h2o 313 den=0.738079 1.0000 557.96 end
+h2o 314 den=0.738079 1.0000 557.96 end
+h2o 315 den=0.738079 1.0000 557.96 end
+zirc4 111 den=0.046488 1.0000 557.96 end
+zirc4 112 den=0.046488 1.0000 557.96 end
+zirc4 113 den=0.046488 1.0000 557.96 end
+zirc4 114 den=0.046488 1.0000 557.96 end
+zirc4 115 den=0.046488 1.0000 557.96 end
+zirc4 311 den=0.046488 1.0000 557.96 end
+zirc4 312 den=0.046488 1.0000 557.96 end
+zirc4 313 den=0.046488 1.0000 557.96 end
+zirc4 314 den=0.046488 1.0000 557.96 end
+zirc4 315 den=0.046488 1.0000 557.96 end
+inconel 111 den=0.008873 1.0000 557.96 end
+inconel 112 den=0.008873 1.0000 557.96 end
+inconel 113 den=0.008873 1.0000 557.96 end
+inconel 114 den=0.008873 
+1.0000 557.96
+ end
+inconel 115 den=0.008873 1.0000 557.96 end
+inconel 311 den=0.008873 1.0000 557.96 end
+inconel 312 den=0.008873 1.0000 557.96 end
+inconel 313 den=0.008873 1.0000 557.96 end
+inconel 314 den=0.008873 1.0000 557.96 end
+inconel 315 den=0.008873 1.0000 557.96 end
+h2o 620 den=0.738079 1.0000 557.96 end
+h2o 656 den=0.738079 1.0000 557.96 end
+h2o 655 den=0.738079 1.0000 557.96 end
+'
+' Gap, he
+' Density: 2.2218E-4 g/cc calculated from the ideal gas law assuming
+' 5 psig from II.e 0-10 psig and 70 F [1]
+' from II.e 0-10 psig [1]
+' Temperature: 711.15 K calculated in [2] from eqn. 8-119 of [3]
+he 121 den=2.2218E-4 1.0000 711.15 end
+he 122 den=2.2218E-4 1.0000 711.15 end
+he 123 den=2.2218E-4 1.0000 711.15 end
+he 124 den=2.2218E-4 1.0000 711.15 end
+he 125 den=2.2218E-4 1.0000 711.15 end
+he 321 den=2.2218E-4 1.0000 711.15 end
+he 322 den=2.2218E-4 1.0000 711.15 end
+he 323 den=2.2218E-4 1.0000 711.15 end
+he 324 den=2.2218E-4 1.0000 711.15 end
+he 325 den=2.2218E-4 1.0000 711.15 end
+'
+' Detector Materials
+h2o 999 den=0.738079 1.0000 557.96 end 
+u-235 999 den=0.738079 1.e-10 557.96 end 
+'
+'Begin Making Compositions for Assigned Mixtures from the Triton Depletion Block
+'These Compositions are Assignments for Mixture 1 in Triton
+uo2 23 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 24 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 25 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 26 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 34 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 35 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 44 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 45 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 46 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 55 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 56 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 66 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+'These Compositions are Assignments for Mixture 2 in Triton
+uo2 22 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+'These Compositions are Assignments for Mixture 505 in Triton
+uo2 335 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 335 den=10.19 0.03 948.45 end
+uo2 365 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 365 den=10.19 0.03 948.45 end
+'These Compositions are Assignments for Mixture 4 in Triton
+uo2 11 den=10.320 1.00 948.45 92235 1.33 92234 0.0118 92236 0.0061 92238 98.6520 end
+'These Compositions are Assignments for Mixture 201 in Triton
+uo2 37 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 47 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 57 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+'These Compositions are Assignments for Mixture 202 in Triton
+uo2 14 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+uo2 15 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+uo2 16 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+uo2 27 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+uo2 67 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+'These Compositions are Assignments for Mixture 203 in Triton
+uo2 12 den=10.320 1.00 948.45 92235 1.69 92234 0.0150 92236 0.0078 92238 98.2872 end
+uo2 13 den=10.320 1.00 948.45 92235 1.69 92234 0.0150 92236 0.0078 92238 98.2872 end
+'These Compositions are Assignments for Mixture 212 in Triton
+uo2 77 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+'These Compositions are Assignments for Mixture 213 in Triton
+uo2 17 den=10.320 1.00 948.45 92235 1.69 92234 0.0150 92236 0.0078 92238 98.2872 end
+'These Compositions are Assignments for Mixture 502 in Triton
+uo2 332 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 332 den=10.19 0.03 948.45 end
+uo2 362 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 362 den=10.19 0.03 948.45 end
+'These Compositions are Assignments for Mixture 503 in Triton
+uo2 333 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 333 den=10.19 0.03 948.45 end
+uo2 363 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 363 den=10.19 0.03 948.45 end
+'These Compositions are Assignments for Mixture 504 in Triton
+uo2 334 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 334 den=10.19 0.03 948.45 end
+uo2 364 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 364 den=10.19 0.03 948.45 end
+'These Compositions are Assignments for Mixture 500 in Triton
+uo2 33 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 33 den=10.19 0.03 948.45 end
+uo2 36 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 36 den=10.19 0.03 948.45 end
+'These Compositions are Assignments for Mixture 506 in Triton
+uo2 336 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 336 den=10.19 0.03 948.45 end
+uo2 366 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 366 den=10.19 0.03 948.45 end
+'These Compositions are Assignments for Mixture 507 in Triton
+uo2 337 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 337 den=10.19 0.03 948.45 end
+uo2 367 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 367 den=10.19 0.03 948.45 end
+'These Compositions are Assignments for Mixture 501 in Triton
+uo2 331 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 331 den=10.19 0.03 948.45 end
+uo2 361 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 361 den=10.19 0.03 948.45 end
+end comp
+read parm 
+     gen=100 
+     npg=500 
+     nsk=0 
+     htm=no
+end parm 
+read geom                                                                                                                                                                                                                                                   
+' lattice position   11                                                                                                                                                                                                                                     
+unit   11                                                                                                                                                                                                                                                   
+'cylinder  1  0.60579  5.0  -5.0  
+cylinder  1  6.0579e-1  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+'cuboid  5  0.93726  -.93726  .93726  -0.93726  5.0  -5.0  
+media  11 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   12                                                                                                                                                                                                                                     
+unit   12                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  12 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   13                                                                                                                                                                                                                                     
+unit   13                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  13 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   14                                                                                                                                                                                                                                     
+unit   14                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  14 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   15                                                                                                                                                                                                                                     
+unit   15                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  15 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   16                                                                                                                                                                                                                                     
+unit   16                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  16 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   17                                                                                                                                                                                                                                     
+unit   17                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  17 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   22                                                                                                                                                                                                                                     
+unit   22                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  22 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   23                                                                                                                                                                                                                                     
+unit   23                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  23 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   24                                                                                                                                                                                                                                     
+unit   24                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  24 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   25                                                                                                                                                                                                                                     
+unit   25                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  25 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   26                                                                                                                                                                                                                                     
+unit   26                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  26 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   27                                                                                                                                                                                                                                     
+unit   27                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  27 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   33                                                                                                                                                                                                                                     
+unit   33                                                                                                                                                                                                                                                   
+cylinder  1  0.21418  5.0  -5.0  
+cylinder  2  0.30290  5.0  -5.0  
+cylinder  3  0.37097  5.0  -5.0  
+cylinder  4  0.42836  5.0  -5.0  
+cylinder  5  0.47892  5.0  -5.0  
+cylinder  6  0.52463  5.0  -5.0  
+cylinder  7  0.56666  5.0  -5.0  
+cylinder  8  0.60579  5.0  -5.0  
+cylinder  9  0.62103  5.0  -5.0  
+cylinder  10  0.71501  5.0  -5.0  
+cylinder  11  0.74501  5.0  -5.0  
+cylinder  12  0.77501  5.0  -5.0  
+cylinder  13  0.80501  5.0  -5.0  
+cuboid  14  4p0.93726  5.0  -5.0  
+media  33 1 1                                                                                                                                                                                                                                               
+media 331 1 2  -1                                                                                                                                                                                                                                           
+media 332 1 3  -2                                                                                                                                                                                                                                           
+media 333 1 4  -3                                                                                                                                                                                                                                           
+media 334 1 5  -4                                                                                                                                                                                                                                           
+media 335 1 6  -5                                                                                                                                                                                                                                           
+media 336 1 7  -6                                                                                                                                                                                                                                           
+media 337 1 8  -7                                                                                                                                                                                                                                           
+media 121 1 9  -8                                                                                                                                                                                                                                           
+media 101 1 10 -9                                                                                                                                                                                                                                           
+media 111 1 11 -10                                                                                                                                                                                                                                          
+media 111 1 12 -11                                                                                                                                                                                                                                          
+media 111 1 13 -12                                                                                                                                                                                                                                          
+media 111 1 14 -13                                                                                                                                                                                                                                          
+boundary  14
+' lattice position   34                                                                                                                                                                                                                                     
+unit   34                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  34 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   35                                                                                                                                                                                                                                     
+unit   35                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  35 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   36                                                                                                                                                                                                                                     
+unit   36                                                                                                                                                                                                                                                   
+cylinder  1  0.21418  5.0  -5.0  
+cylinder  2  0.30290  5.0  -5.0  
+cylinder  3  0.37097  5.0  -5.0  
+cylinder  4  0.42836  5.0  -5.0  
+cylinder  5  0.47892  5.0  -5.0  
+cylinder  6  0.52463  5.0  -5.0  
+cylinder  7  0.56666  5.0  -5.0  
+cylinder  8  0.60579  5.0  -5.0  
+cylinder  9  0.62103  5.0  -5.0  
+cylinder  10  0.71501  5.0  -5.0  
+cylinder  11  0.74501  5.0  -5.0  
+cylinder  12  0.77501  5.0  -5.0  
+cylinder  13  0.80501  5.0  -5.0  
+cuboid  14  4p0.93726  5.0  -5.0  
+media  36 1 1                                                                                                                                                                                                                                               
+media 361 1 2  -1                                                                                                                                                                                                                                           
+media 362 1 3  -2                                                                                                                                                                                                                                           
+media 363 1 4  -3                                                                                                                                                                                                                                           
+media 364 1 5  -4                                                                                                                                                                                                                                           
+media 365 1 6  -5                                                                                                                                                                                                                                           
+media 366 1 7  -6                                                                                                                                                                                                                                           
+media 367 1 8  -7                                                                                                                                                                                                                                           
+media 121 1 9  -8                                                                                                                                                                                                                                           
+media 101 1 10 -9                                                                                                                                                                                                                                           
+media 111 1 11 -10                                                                                                                                                                                                                                          
+media 111 1 12 -11                                                                                                                                                                                                                                          
+media 111 1 13 -12                                                                                                                                                                                                                                          
+media 111 1 14 -13                                                                                                                                                                                                                                          
+boundary  14
+' lattice position   37                                                                                                                                                                                                                                     
+unit   37                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  37 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   44                                                                                                                                                                                                                                     
+unit   44                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  44 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   45                                                                                                                                                                                                                                     
+unit   45                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  45 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   46                                                                                                                                                                                                                                     
+unit   46                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  46 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   47                                                                                                                                                                                                                                     
+unit   47                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  47 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   55                                                                                                                                                                                                                                     
+unit   55                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  55 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   56                                                                                                                                                                                                                                     
+unit   56                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  56 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   57                                                                                                                                                                                                                                     
+unit   57                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  57 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   66                                                                                                                                                                                                                                     
+unit   66                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  66 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   67                                                                                                                                                                                                                                     
+unit   67                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  67 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' lattice position   77                                                                                                                                                                                                                                     
+unit   77                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  
+cylinder  2  0.62103  5.0  -5.0  
+cylinder  3  0.71501  5.0  -5.0  
+cylinder  4  0.78501  5.0  -5.0  
+cuboid  5  4p0.93726  5.0  -5.0  
+media  77 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+boundary  5
+' Channel corners                                                                                                                                                                                                                                           
+' Channel corners placed in geometry by using a hole.                                                                                                                                                                                                       
+' Thickness:  0.2032 cm   from 0.080" in Table 1 of [1] - same as channel                                                                                                                                                                                   
+' Radius:     0.9652 cm   from 0.380" in Table 1 of [1]                                                                                                                                                                                                     
+' Northeast Corner                                                                                                                                                                                                                                          
+unit   80                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  2  0.62103  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  3  0.71501  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  4  0.78501  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  5  0.9652  5.0  -5.0  chord  +x=0.0  chord  +y=0.0
+cylinder  6  1.1684  5.0  -5.0  chord  +x=0.0  chord  +y=0.0
+cuboid  7  1.2  0.0  1.2  0.0  5.0  -5.0  
+media  17 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+media 630 1 6 -5                                                                                                                                                                                                                                            
+media 620 1 7 -6                                                                                                                                                                                                                                            
+boundary  7
+' Southeast Corner                                                                                                                                                                                                                                          
+unit   81                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  2  0.62103  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  3  0.71501  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  4  0.78501  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  5  0.9652  5.0  -5.0  chord  +x=0.0  chord  +y=0.0
+cylinder  6  1.1684  5.0  -5.0  chord  +x=0.0  chord  +y=0.0
+cuboid  7  1.2  0.0  1.2  0.0  5.0  -5.0  
+media  11 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+media 630 1 6 -5                                                                                                                                                                                                                                            
+media 620 1 7 -6                                                                                                                                                                                                                                            
+boundary  7
+' Southwest Corner                                                                                                                                                                                                                                          
+unit   82                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  2  0.62103  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  3  0.71501  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  4  0.78501  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  5  0.9652  5.0  -5.0  chord  +x=0.0  chord  +y=0.0
+cylinder  6  1.1684  5.0  -5.0  chord  +x=0.0  chord  +y=0.0
+cuboid  7  1.2  0.0  1.2  0.0  5.0  -5.0  
+media  17 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+media 630 1 6 -5                                                                                                                                                                                                                                            
+media 620 1 7 -6                                                                                                                                                                                                                                            
+boundary  7
+' Northwest Corner                                                                                                                                                                                                                                          
+unit   83                                                                                                                                                                                                                                                   
+cylinder  1  0.60579  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  2  0.62103  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  3  0.71501  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  4  0.78501  5.0  -5.0  chord  +x=0.0  chord  +y=0.0  origin  x=-0.1143  y=-0.1143
+cylinder  5  0.9652  5.0  -5.0  chord  +x=0.0  chord  +y=0.0
+cylinder  6  1.1684  5.0  -5.0  chord  +x=0.0  chord  +y=0.0
+cuboid  7  1.2  0.0  1.2  0.0  5.0  -5.0  
+media  77 1 1                                                                                                                                                                                                                                               
+media 121 1 2 -1                                                                                                                                                                                                                                            
+media 101 1 3 -2                                                                                                                                                                                                                                            
+media 111 1 4 -3                                                                                                                                                                                                                                            
+media 111 1 5 -4                                                                                                                                                                                                                                            
+media 630 1 6 -5                                                                                                                                                                                                                                            
+media 620 1 7 -6                                                                                                                                                                                                                                            
+boundary  7
+' Control Rod Blades                                                                                                                                                                                                                                        
+' Control rod blades placed in the geometry using a hole                                                                                                                                                                                                    
+' Tube o.r.:         0.23876 cm  from Table 11 "Tube Dimensions", 0.188" o.d. [1]                                                                                                                                                                           
+' Tube i.r.:         0.17526 cm  from Table 11 "Tube Dimensions", 0.025" wall thickness [1]                                                                                                                                                                 
+' Blade Thickness:   0.39624 cm  from Table 11 "Control Blade Full Thickness",                                                                                                                                                                              
+'                                0.3120" wall thickness [1]                                                                                                                                                                                                 
+' Sheath Thickness: 0.14224 cm  from Table 11 "Sheath Thickness" 0.056" [1]                                                                                                                                                                                 
+' Blade Half Span:  12.38250 cm  from Table 11 "Blade Half Span" 4.875" [1]                                                                                                                                                                                 
+' Central Support:   1.98501 cm  from Table 11 "Central Structure Wing Length" 0.7815" [1]                                                                                                                                                                  
+' Number of Tubes:  84           from Table 11 "Number of Control Material Tubes per Rod" [1]                                                                                                                                                               
+' Assumed that absorber tubes touch adjacent absorber tubes                                                                                                                                                                                                 
+' Assumed rounded blade tip was negligable - modeled as a square                                                                                                                                                                                            
+unit 200                                                                                                                                                                                                                                                    
+com='control wing half-pellet'                                                                                                                                                                                                                              
+cylinder  10  0.17526  5.0  -5.0  chord  -y=0
+cylinder  20  0.23876  5.0  -5.0  chord  -y=0
+cuboid  40  0.23876  -0.23876  0  -0.25400  5.0  -5.0  
+media  656  1  10                                                                                                                                                                                                                                           
+media  655  1 -10  20                                                                                                                                                                                                                                       
+media  620  1 -20  40                                                                                                                                                                                                                                       
+boundary  40
+unit 201                                                                                                                                                                                                                                                    
+com='control wing half-pellet'                                                                                                                                                                                                                              
+cylinder  10  0.17526  5.0  -5.0  chord  +x=0
+cylinder  20  0.23876  5.0  -5.0  chord  +x=0
+cuboid  40  0.25400  0.0  0.23876  -0.23876  5.0  -5.0  
+media  656  1  10                                                                                                                                                                                                                                           
+media  655  1 -10  20                                                                                                                                                                                                                                       
+media  620  1 -20  40                                                                                                                                                                                                                                       
+boundary  40
+
+unit 202                                                                                                                                                                                                                                                    
+com='control blade wing'                                                                                                                                                                                                                                    
+cuboid  10  10.17016  0.0  0.0  -0.39625  5.0  -5.0
+' new surface to fill is exactly the size of the array
+cuboid  1210 10.02792 0.0  0.0  -.254     5.0  -5.0
+                                                                                                                                                                                                                     
+' array  200  10  place  1  1  1  .23876  0.0  0.0
+' new array you just replace the surface 10 with 1210
+array  200  1210  place  1  1  1  .23876  0.0  0.0
+
+' Must add "-1210" to the media that describes cuboid 10  
+media  655  1 10 -1210
+boundary  10
+
+unit 203                                                                                                                                                                                                                                                    
+com='control blade wing'
+cuboid  10  0.39625  0.0  0.0  -10.17016  5.0  -5.0
+' cuboid  10  0.39625  0.0  -0.39625  -10.17016  5.0  -5.0
+' new surface to fill is exactly the size of the array
+cuboid  1210 0.254  0.0  0.0  -10.02792     5.0  -5.0
+
+' array  201  10  place  1  1  1  0.0  -9.78916  0.0
+' new array you just replace the surface 10 with 1210
+array  201  1210  place  1  1  1  0.0  -9.78916  0.0
+
+' Must add "-1210" to the media that describes cuboid 10 
+media  655  1 10 -1210
+boundary  10
+
+unit 205                                                                                                                                                                                                                                                    
+com='control blade central support - horizontal part'                                                                                                                                                                                                                         
+cuboid  10  2.21234  0.0  0.0  -0.39625  5.0  -5.0
+media  655  1 10                                                                                                                                                                                                                                            
+boundary  10
+
+'''''''''''''''''''''''''
+' Need another unit to describe the other part of the control blade central support
+unit 206
+com='control blade central support - vertical part'                                                                                                                                                                                                                         
+cuboid  10  0.39625  0.0  -0.39625 -2.21234  5.0  -5.0
+media  655  1 10                                                                                                                                                                                                                                            
+boundary  10
+
+' COMMENT OUT DETECTOR UNIT - It was overlapping the hole for a corner od the shroud
+' Also, it will affect the Dancoff calculation
+' Detector Unit                                                                                                                                                                                                                                             
+'unit 300                                                                                                                                                                                                                                                    
+'com='LPRM detector model'                                                                                                                                                                                                                                   
+'cylinder  10  0.64516  5.0  -5.0  chord  -x=0  chord  +y=0
+'media  999  1 10                                                                                                                                                                                                                                            
+'boundary  10
+
+' Global unit                                                                                                                                                                                                                                               
+' Channel                                                                                                                                                                                                                                                   
+' Thickness:       0.2032 cm   from 0.080" in Table 1 of [1] - same as channel                                                                                                                                                                              
+' Assembly Pitch: 15.24 cm     from control blade pitch, Table 11, 12.0" [1]                                                                                                                                                                                
+' Rounded channel corners, partial pins with the corners, and control blades                                                                                                                                                                                
+'   are placed using holes.   
+
+global unit 100                                                                                                                                                                                                                                             
+cuboid  1  6.94182  -6.46430  6.46430  -6.94182  5.0  -5.0  
+'new surface for filling
+cuboid 1231 6.79958  -6.32206  6.32206  -6.79958  5.0  -5.0
+' array  1  1  place  4  4  1  0.23876  -0.23876  0.0 
+' The new array definition with a new surface to fill in 
+array  1  1231  place  4  4  1  0.23876  -0.23876  0.0  
+cuboid  2  7.14502  -6.66750  6.66750  -7.14502  5.0  -5.0
+' I think the boundary surface needs to be slightly larger than the holes that are placed in the corners
+cuboid  10  4p7.62  5.0  -5.0  
+' Comment out old surface def media   111 1 1    
+' Add the "except that within" the new surface
+media   111 1 1 -1231
+media   630 1 2 -1                                                                                                                                                                                                                                          
+media   620 1 10 -2  
+'new media - water inside new surface
+' I don't think this is right - It is filled by the array - Comment it out
+'media   111 1 1231
+hole 80  origin x= 5.97662 y= 5.49910                                                                                                                                                                                                                       
+hole 81  origin x=-5.49910 y= 5.49910  rotate a1= 90                                                                                                                                                                                                        
+hole 82  origin x=-5.49910 y=-5.97662  rotate a1=180                                                                                                                                                                                                        
+hole 83  origin x= 5.97662 y=-5.97662  rotate a1=270                                                                                                                                                                                                        
+hole 202 origin x=-5.40766 y= 7.62                                                                                                                                                                                                                          
+hole 203 origin x=-7.62    y= 5.40766                                                                                                                                                                                                                       
+hole 205 origin x=-7.62    y= 7.62
+' hole 205 origin x=-7.22375 y= 7.62    rotate a1=270
+hole 206 origin x=-7.62    y= 7.62
+'Comment out detector
+' hole 300 origin x=7.62     y=-7.62                                                                                                                                                                                                                          
+boundary  10
+end geom        
+
+' ---------ARRAYS--------                                                                                                                                                                                                                                   
+read array                                                                                                                                                                                                                                                  
+ara=1 nux=7 nuz=1 nuy=7 typ=cuboidal
+fill                                                                                                                                                                                                                                                        
+17  27  37  47  57  67  77                                                                                                                                                                                                                                  
+16  26  36  46  56  66  67                                                                                                                                                                                                                                  
+15  25  35  45  55  56  57                                                                                                                                                                                                                                  
+14  24  34  44  45  46  47                                                                                                                                                                                                                                  
+13  23  33  34  35  36  37                                                                                                                                                                                                                                  
+12  22  23  24  25  26  27                                                                                                                                                                                                                                  
+11  12  13  14  15  16  17 end fill                                                                                                                                                                                                                         
+ara=200  nux=21  nuz=1  nuy=1
+fill 21r200  end fill                                                                                                                                                                                                                                       
+ara=201  nux=1  nuz=1  nuy=21
+fill 21r201  end fill                                                                                                                                                                                                                                       
+end array
+
+' -------- Plot Data ---------
+read plot
+ scr=yes
+ ttl='plot'
+ pic=mixtures
+ xul=-7.62
+ yul=7.62
+ zul=0
+ xlr=7.62
+ ylr=-7.62
+ zlr=0
+ nax=700
+ clr=1 255 0 0
+     2 0 0 205
+     4 0 238 0
+     11 224 255 255
+     12 0 255 127
+     13 255 255 224
+     14 255 0 0
+     15 255 0 255
+     16 67 110 238
+     17 174 238 238
+     22 25 25 112
+     23 0 0 128
+     24 100 149 237
+     25 72 61 139
+     26 106 90 205
+     27 123 104 238
+     33 176 224 230
+     34 0 206 209
+     35 72 209 204
+     36 95 158 160
+     37 102 205 170
+     44 152 251 152
+     45 0 255 0
+     46 127 255 0
+     47 0 250 154
+     55 238 232 170
+     56 250 250 210
+     57 255 255 224
+     66 205 133 63
+     67 222 184 135
+     77 255 165 0
+     101 216 191 216
+     102 238 233 233
+     103 238 229 222
+     104 238 223 204
+     105 238 213 183
+     111 224 238 224
+     112 238 224 229
+     113 238 213 210
+     114 224 238 238
+     115 122 103 238
+     121 126 192 238
+     122 164 211 238
+     123 185 211 238
+     124 188 210 238
+     125 178 223 238
+     201 224 255 255
+     202 187 255 255
+     203 152 245 255
+     212 192 255 62
+     213 202 255 112
+     301 0 255 0
+     302 127 255 0
+     303 0 250 154
+     304 173 255 47
+     305 50 205 50
+     311 238 232 170
+     312 250 250 210
+     313 255 255 224
+     314 255 255 0
+     315 255 215 0
+     321 160 82 45
+     322 205 133 63
+     323 222 184 135
+     324 245 245 220
+     325 245 222 179
+     331 250 128 114
+     332 255 160 122
+     333 255 165 0
+     334 255 140 0
+     335 255 127 80
+     336 240 128 128
+     337 255 99 71
+     361 238 213 183
+     362 238 203 173
+     363 238 207 161
+     364 238 233 191
+     365 238 232 205
+     366 238 238 224
+     367 224 238 224
+     500 246 84 246
+     501 224 102 255
+     502 191 62 255
+     503 155 48 255
+     504 171 130 255
+     505 255 225 255
+     506 139 0 139
+     507 139 0 0
+     620 238 233 191
+     630 28 134 238
+     645 78 238 148
+     646 144 238 144
+     655 238 238 0
+     656 238 201 0
+     999 255 165 0
+ end color
+ uax=1 vdn=-1
+  end
+ scr=yes
+ ttl='plot2'
+ pic=mixtures
+ xul=-7.62
+ yul=7.62
+ zul=0
+ xlr=7.62
+ ylr=-7.62
+ zlr=0
+ nax=700
+ uax=1 vdn=-1
+  end
+end plot
+                                                                                                                                                                                                                                              
+' --------BOUNDARY CONDITIONS--------                                                                                                                                                                                                                       
+read bounds                                                                                                                                                                                                                                                 
+all=refl                                                                                                                                                                                                                                                   
+end bounds                                                                                                                                                                                                                                                  
+end data
+end

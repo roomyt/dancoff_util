@@ -1,0 +1,3395 @@
+
+ *******************************************************************************
+ *                                                                             *
+ *                                 Scale 6.1                                   *
+ *                                 ---------                                   *
+ *                                 June 2011                                   *
+ *                                                                             *
+ *           Scale:  A Comprehensive Modeling and Simulation Suite             *
+ *                   for Nuclear Safety Analysis and Design                    *
+ *                                                                             *
+ *                      Reactor and Nuclear Systems Divsion                    *
+ *                        Oak Ridge National Laboratory                        *
+ *                                                                             *
+ *                           http://scale.ornl.gov                             *
+ *                            scalehelp@ornl.gov                               *
+ *                                                                             *
+ *******************************************************************************
+
+ *******************************************************************************
+      
+                  Job Information
+                  ---------------
+      Job started on thomas-laptop on Tue 20/12/2011 06:08:50
+      Working directory: /tmp/scale.thomas.8448
+      Input file name  : /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.inp
+      Output file name : /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.out
+      
+ *******************************************************************************
+           primary module access and input record ( Scale 6.1 driver )
+
+
+    module mcdancoff will be called at 06:08:50.456 on 12/20/2011.
+    sequence specification record:=mcdancoff
+
+    Input Data:
+
+      KENO input converted from NEWT
+      xn01
+      'batch_args \-m
+      '/=T-DEPL parm=(centrm,check)
+      '/CHANGED FUEL MAP TO TEST DANCOFF LOGIC
+      '/v7-238
+      read comp
+      uo2 1 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 201 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 2 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+      uo2 202 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+      uo2 212 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+      uo2 203 den=10.320 1.00 948.45 92235 1.69 92234 0.0150 92236 0.0078 92238 98.2872 end
+      uo2 213 den=10.320 1.00 948.45 92235 1.69 92234 0.0150 92236 0.0078 92238 98.2872 end
+      uo2 4 den=10.320 1.00 948.45 92235 1.33 92234 0.0118 92236 0.0061 92238 98.6520 end
+      uo2 500 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 501 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 502 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 503 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 504 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 505 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 506 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 507 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 500 den=10.19 0.03 948.45 end
+      gd2o3 501 den=10.19 0.03 948.45 end
+      gd2o3 502 den=10.19 0.03 948.45 end
+      gd2o3 503 den=10.19 0.03 948.45 end
+      gd2o3 504 den=10.19 0.03 948.45 end
+      gd2o3 505 den=10.19 0.03 948.45 end
+      gd2o3 506 den=10.19 0.03 948.45 end
+      gd2o3 507 den=10.19 0.03 948.45 end
+      zirc2 101 den=6.56 1 578.71 end
+      zirc2 102 den=6.56 1 578.71 end
+      zirc2 103 den=6.56 1 578.71 end
+      zirc2 104 den=6.56 1 578.71 end
+      zirc2 105 den=6.56 1 578.71 end
+      zirc2 301 den=6.56 1 578.71 end
+      zirc2 302 den=6.56 1 578.71 end
+      zirc2 303 den=6.56 1 578.71 end
+      zirc2 304 den=6.56 1 578.71 end
+      zirc2 305 den=6.56 1 578.71 end
+      zirc4 630 den=6.56 1 557.96 end
+      ss304 645 den=7.94 1.0000 557.96 end
+      b4c 646 den=1.764 1.0000 557.96 end
+      h2o 111 den=0.738079 1.0000 557.96 end
+      h2o 112 den=0.738079 1.0000 557.96 end
+      h2o 113 den=0.738079 1.0000 557.96 end
+      h2o 114 den=0.738079 1.0000 557.96 end
+      h2o 115 den=0.738079 1.0000 557.96 end
+      h2o 311 den=0.738079 1.0000 557.96 end
+      h2o 312 den=0.738079 1.0000 557.96 end
+      h2o 313 den=0.738079 1.0000 557.96 end
+      h2o 314 den=0.738079 1.0000 557.96 end
+      h2o 315 den=0.738079 1.0000 557.96 end
+      zirc4 111 den=0.046488 1.0000 557.96 end
+      zirc4 112 den=0.046488 1.0000 557.96 end
+      zirc4 113 den=0.046488 1.0000 557.96 end
+      zirc4 114 den=0.046488 1.0000 557.96 end
+      zirc4 115 den=0.046488 1.0000 557.96 end
+      zirc4 311 den=0.046488 1.0000 557.96 end
+      zirc4 312 den=0.046488 1.0000 557.96 end
+      zirc4 313 den=0.046488 1.0000 557.96 end
+      zirc4 314 den=0.046488 1.0000 557.96 end
+      zirc4 315 den=0.046488 1.0000 557.96 end
+      inconel 111 den=0.008873 1.0000 557.96 end
+      inconel 112 den=0.008873 1.0000 557.96 end
+      inconel 113 den=0.008873 1.0000 557.96 end
+      inconel 114 den=0.008873
+      1.0000 557.96
+       end
+      inconel 115 den=0.008873 1.0000 557.96 end
+      inconel 311 den=0.008873 1.0000 557.96 end
+      inconel 312 den=0.008873 1.0000 557.96 end
+      inconel 313 den=0.008873 1.0000 557.96 end
+      inconel 314 den=0.008873 1.0000 557.96 end
+      inconel 315 den=0.008873 1.0000 557.96 end
+      h2o 620 den=0.738079 1.0000 557.96 end
+      h2o 656 den=0.738079 1.0000 557.96 end
+      h2o 655 den=0.738079 1.0000 557.96 end
+      he 121 den=2.2218E-4 1.0000 711.15 end
+      he 122 den=2.2218E-4 1.0000 711.15 end
+      he 123 den=2.2218E-4 1.0000 711.15 end
+      he 124 den=2.2218E-4 1.0000 711.15 end
+      he 125 den=2.2218E-4 1.0000 711.15 end
+      he 321 den=2.2218E-4 1.0000 711.15 end
+      he 322 den=2.2218E-4 1.0000 711.15 end
+      he 323 den=2.2218E-4 1.0000 711.15 end
+      he 324 den=2.2218E-4 1.0000 711.15 end
+      he 325 den=2.2218E-4 1.0000 711.15 end
+      h2o 999 den=0.738079 1.0000 557.96 end
+      u-235 999 den=0.738079 1.e-10 557.96 end
+      '
+      'Begin Making Compositions for Assigned Mixtures from the Triton Depletion Block
+      'These Compositions are Assignments for Mixture 1 in Triton
+      uo2 23 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 24 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 25 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 26 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 34 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 35 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 44 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 45 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 46 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 55 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 56 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 66 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      'These Compositions are Assignments for Mixture 2 in Triton
+      uo2 22 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+      'These Compositions are Assignments for Mixture 505 in Triton
+      uo2 335 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 335 den=10.19 0.03 948.45 end
+      uo2 365 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 365 den=10.19 0.03 948.45 end
+      'These Compositions are Assignments for Mixture 4 in Triton
+      uo2 11 den=10.320 1.00 948.45 92235 1.33 92234 0.0118 92236 0.0061 92238 98.6520 end
+      'These Compositions are Assignments for Mixture 201 in Triton
+      uo2 37 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 47 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      uo2 57 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      'These Compositions are Assignments for Mixture 202 in Triton
+      uo2 14 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+      uo2 15 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+      uo2 16 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+      uo2 27 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+      uo2 67 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+      'These Compositions are Assignments for Mixture 203 in Triton
+      uo2 12 den=10.320 1.00 948.45 92235 1.69 92234 0.0150 92236 0.0078 92238 98.2872 end
+      uo2 13 den=10.320 1.00 948.45 92235 1.69 92234 0.0150 92236 0.0078 92238 98.2872 end
+      'These Compositions are Assignments for Mixture 212 in Triton
+      uo2 77 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+      'These Compositions are Assignments for Mixture 213 in Triton
+      uo2 17 den=10.320 1.00 948.45 92235 1.69 92234 0.0150 92236 0.0078 92238 98.2872 end
+      'These Compositions are Assignments for Mixture 502 in Triton
+      uo2 332 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 332 den=10.19 0.03 948.45 end
+      uo2 362 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 362 den=10.19 0.03 948.45 end
+      'These Compositions are Assignments for Mixture 503 in Triton
+      uo2 333 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 333 den=10.19 0.03 948.45 end
+      uo2 363 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 363 den=10.19 0.03 948.45 end
+      'These Compositions are Assignments for Mixture 504 in Triton
+      uo2 334 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 334 den=10.19 0.03 948.45 end
+      uo2 364 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 364 den=10.19 0.03 948.45 end
+      'These Compositions are Assignments for Mixture 500 in Triton
+      uo2 33 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 33 den=10.19 0.03 948.45 end
+      uo2 36 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 36 den=10.19 0.03 948.45 end
+      'These Compositions are Assignments for Mixture 506 in Triton
+      uo2 336 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 336 den=10.19 0.03 948.45 end
+      uo2 366 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 366 den=10.19 0.03 948.45 end
+      'These Compositions are Assignments for Mixture 507 in Triton
+      uo2 337 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 337 den=10.19 0.03 948.45 end
+      uo2 367 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 367 den=10.19 0.03 948.45 end
+      'These Compositions are Assignments for Mixture 501 in Triton
+      uo2 331 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 331 den=10.19 0.03 948.45 end
+      uo2 361 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+      gd2o3 361 den=10.19 0.03 948.45 end
+      end comp
+      read parm
+           htm=no
+           gen=100
+           npg=500
+           nsk=0
+      end parm
+      read geom
+      unit 11
+      cylinder 1 6.0579e-1 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 11 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 12
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 12 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 13
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 13 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 14
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 14 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 15
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 15 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 16
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 16 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 17
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 17 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 22
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 22 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 23
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 23 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 24
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 24 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 25
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 25 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 26
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 26 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 27
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 27 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 33
+      cylinder 1 0.21418 20.0 -20.0
+      cylinder 2 0.30290 20.0 -20.0
+      cylinder 3 0.37097 20.0 -20.0
+      cylinder 4 0.42836 20.0 -20.0
+      cylinder 5 0.47892 20.0 -20.0
+      cylinder 6 0.52463 20.0 -20.0
+      cylinder 7 0.56666 20.0 -20.0
+      cylinder 8 0.60579 20.0 -20.0
+      cylinder 9 0.62103 20.0 -20.0
+      cylinder 10 0.71501 20.0 -20.0
+      cylinder 11 0.74501 20.0 -20.0
+      cylinder 12 0.77501 20.0 -20.0
+      cylinder 13 0.80501 20.0 -20.0
+      cuboid 14 4p0.93726 20.0 -20.0
+      media 33 1 1
+      media 331 1 2 -1
+      media 332 1 3 -2
+      media 333 1 4 -3
+      media 334 1 5 -4
+      media 335 1 6 -5
+      media 336 1 7 -6
+      media 337 1 8 -7
+      media 121 1 9 -8
+      media 101 1 10 -9
+      media 111 1 11 -10
+      media 111 1 12 -11
+      media 111 1 13 -12
+      media 111 1 14 -13
+      boundary 14
+      unit 34
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 34 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 35
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 35 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 36
+      cylinder 1 0.21418 20.0 -20.0
+      cylinder 2 0.30290 20.0 -20.0
+      cylinder 3 0.37097 20.0 -20.0
+      cylinder 4 0.42836 20.0 -20.0
+      cylinder 5 0.47892 20.0 -20.0
+      cylinder 6 0.52463 20.0 -20.0
+      cylinder 7 0.56666 20.0 -20.0
+      cylinder 8 0.60579 20.0 -20.0
+      cylinder 9 0.62103 20.0 -20.0
+      cylinder 10 0.71501 20.0 -20.0
+      cylinder 11 0.74501 20.0 -20.0
+      cylinder 12 0.77501 20.0 -20.0
+      cylinder 13 0.80501 20.0 -20.0
+      cuboid 14 4p0.93726 20.0 -20.0
+      media 36 1 1
+      media 361 1 2 -1
+      media 362 1 3 -2
+      media 363 1 4 -3
+      media 364 1 5 -4
+      media 365 1 6 -5
+      media 366 1 7 -6
+      media 367 1 8 -7
+      media 121 1 9 -8
+      media 101 1 10 -9
+      media 111 1 11 -10
+      media 111 1 12 -11
+      media 111 1 13 -12
+      media 111 1 14 -13
+      boundary 14
+      unit 37
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 37 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      
+      unit 44
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 111 1 1
+      media 111 1 2 -1
+      media 111 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      
+      unit 45
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 45 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 46
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 46 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 47
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 47 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 55
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 55 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 56
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 56 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 57
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 57 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 66
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 66 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 67
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 67 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 77
+      cylinder 1 0.60579 20.0 -20.0
+      cylinder 2 0.62103 20.0 -20.0
+      cylinder 3 0.71501 20.0 -20.0
+      cylinder 4 0.78501 20.0 -20.0
+      cuboid 5 4p0.93726 20.0 -20.0
+      media 77 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      boundary 5
+      unit 80
+      cylinder 1 0.60579 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 2 0.62103 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 3 0.71501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 4 0.78501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 5 0.9652 20.0 -20.0 chord +x=0.0 chord +y=0.0
+      cylinder 6 1.1684 20.0 -20.0 chord +x=0.0 chord +y=0.0
+      cuboid 7 1.2 0.0 1.2 0.0 20.0 -20.0
+      media 17 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      media 630 1 6 -5
+      media 620 1 7 -6
+      boundary 7
+      unit 81
+      cylinder 1 0.60579 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 2 0.62103 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 3 0.71501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 4 0.78501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 5 0.9652 20.0 -20.0 chord +x=0.0 chord +y=0.0
+      cylinder 6 1.1684 20.0 -20.0 chord +x=0.0 chord +y=0.0
+      cuboid 7 1.2 0.0 1.2 0.0 20.0 -20.0
+      media 11 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      media 630 1 6 -5
+      media 620 1 7 -6
+      boundary 7
+      unit 82
+      cylinder 1 0.60579 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 2 0.62103 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 3 0.71501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 4 0.78501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 5 0.9652 20.0 -20.0 chord +x=0.0 chord +y=0.0
+      cylinder 6 1.1684 20.0 -20.0 chord +x=0.0 chord +y=0.0
+      cuboid 7 1.2 0.0 1.2 0.0 20.0 -20.0
+      media 17 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      media 630 1 6 -5
+      media 620 1 7 -6
+      boundary 7
+      unit 83
+      cylinder 1 0.60579 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 2 0.62103 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 3 0.71501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 4 0.78501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+      cylinder 5 0.9652 20.0 -20.0 chord +x=0.0 chord +y=0.0
+      cylinder 6 1.1684 20.0 -20.0 chord +x=0.0 chord +y=0.0
+      cuboid 7 1.2 0.0 1.2 0.0 20.0 -20.0
+      media 77 1 1
+      media 121 1 2 -1
+      media 101 1 3 -2
+      media 111 1 4 -3
+      media 111 1 5 -4
+      media 630 1 6 -5
+      media 620 1 7 -6
+      boundary 7
+      unit 200
+      com='control wing half-pellet'
+      cylinder 10 0.17526 20.0 -20.0 chord -y=0
+      cylinder 20 0.23876 20.0 -20.0 chord -y=0
+      cuboid 40 0.23876 -0.23876 0 -0.25400 20.0 -20.0
+      media 656 1 10
+      media 655 1 -10 20
+      media 620 1 -20 40
+      boundary 40
+      unit 201
+      com='control wing half-pellet'
+      cylinder 10 0.17526 20.0 -20.0 chord +x=0
+      cylinder 20 0.23876 20.0 -20.0 chord +x=0
+      cuboid 40 0.25400 0.0 0.23876 -0.23876 20.0 -20.0
+      media 656 1 10
+      media 655 1 -10 20
+      media 620 1 -20 40
+      boundary 40
+      
+      unit 202
+      com='control blade wing'
+      'The new surface is defined below
+      cuboid 999 10.02792 0.0 0.0 -0.254 20.0 -20.0
+      cuboid 10 10.17016 0.0 0.0 -0.39625 20.0 -20.0
+      'The new array is defined below
+      array 200 999 place 1 1 1 .23876 0.0 0.0
+      'Old: array 200 10 place 1 1 1 .23876 0.0 0.0
+      'The new media is defined below
+      media 655 1 10  -999
+      'Old: media 655 1 10
+      boundary 10
+      
+      unit 203
+      com='control blade wing'
+      'The new surface is defined below
+      cuboid 999 0.254 0.0 0.0 -10.02792 20.0 -20.0
+      cuboid 10 0.39625 0.0 0.0 -10.17016 20.0 -20.0
+      'The new array is defined below
+      array 201 999 place 1 1 1 0.0 -9.78916 0.0
+      'Old: array 201 10 place 1 1 1 0.0 -9.78916 0.0
+      'The new media is defined below
+      media 655 1 10  -999
+      'Old: media 655 1 10
+      boundary 10
+      
+      unit 205
+      com='control blade central support'
+      cuboid 10 2.21234 0.0 0.0 -0.39625 20.0 -20.0
+      media 655 1 10
+      boundary 10
+      
+      unit 206
+      com='control blade central support - vertical part'
+      cuboid 10 0.39625 0.0 -0.39625 -2.21234 20.0 -20.0
+      media 655 1 10
+      boundary 10
+      
+      
+      global unit 100
+      'The new surface is defined below
+      cuboid 999 6.79958 -6.32206 6.32206 -6.79958 20.0 -20.0
+      cuboid 1 6.94182 -6.46430 6.46430 -6.94182 20.0 -20.0
+      'The new array is defined below
+      array 1 999 place 4 4 1 0.23876 -0.23876 0.0
+      'Old: array 1 1 place 4 4 1 0.23876 -0.23876 0.0
+      cuboid 2 7.14502 -6.66750 6.66750 -7.14502 20.0 -20.0
+      cuboid 10 4p7.62 20.0 -20.0
+      'The new media is defined below
+      media 111 1 1  -999
+      'Old: media 111 1 1
+      media 630 1 2 -1
+      media 620 1 10 -2
+      hole 80 origin x= 5.97662 y= 5.49910
+      hole 81 origin x=-5.49910 y= 5.49910 rotate a1= 90
+      hole 82 origin x=-5.49910 y=-5.97662 rotate a1=180
+      hole 83 origin x= 5.97662 y=-5.97662 rotate a1=270
+      hole 202 origin x=-5.40766 y= 7.62
+      hole 203 origin x=-7.62 y= 5.40766
+      hole 205 origin x=-7.62 y= 7.62
+      hole 206 origin x=-7.62 y= 7.62
+      boundary 10
+      end geom
+      read array
+      ara=1 nux=7 nuz=1 nuy=7 typ=cuboidal
+      fill
+      17  17  17  17  17  17  17
+      17  17  17  17  17  44  17
+      17  17  17  17  17  44  17
+      17  17  17  17  17  17  17
+      17  17  17  17  17  44  17
+      17  17  17  17  17  17  17
+      17  17  17  17  17  17  17 end fill
+      ara=200  nux=21  nuz=1  nuy=1
+      fill 21r200  end fill
+      ara=201  nux=1  nuz=1  nuy=21
+      fill 21r201  end fill
+      end array
+      read bounds
+      all=refl
+      end bounds
+      read start
+      dancoff  array 1 7 7 1  unit 17 region 1
+      dancoff  array 1 6 7 1  unit 17 region 1
+      dancoff  array 1 5 7 1  unit 17 region 1
+      dancoff  array 1 4 7 1  unit 17 region 1
+      dancoff  array 1 3 7 1  unit 17 region 1
+      dancoff  array 1 2 7 1  unit 17 region 1
+      dancoff  array 1 1 7 1  unit 17 region 1
+      dancoff  array 1 7 6 1  unit 17 region 1
+      dancoff  array 1 6 6 1  unit 17 region 1
+      dancoff  array 1 5 6 1  unit 17 region 1
+      dancoff  array 1 4 6 1  unit 17 region 1
+      dancoff  array 1 3 6 1  unit 17 region 1
+      dancoff  array 1 2 6 1  unit 17 region 1
+      dancoff  array 1 1 6 1  unit 17 region 1
+      dancoff  array 1 7 5 1  unit 17 region 1
+      'This unit has no fuel
+      dancoff  array 1 5 5 1  unit 17 region 1
+      dancoff  array 1 4 5 1  unit 17 region 1
+      dancoff  array 1 3 5 1  unit 17 region 1
+      dancoff  array 1 2 5 1  unit 17 region 1
+      dancoff  array 1 1 5 1  unit 17 region 1
+      dancoff  array 1 7 4 1  unit 17 region 1
+      dancoff  array 1 6 4 1  unit 17 region 1
+      dancoff  array 1 5 4 1  unit 17 region 1
+      dancoff  array 1 4 4 1  unit 17 region 1
+      dancoff  array 1 3 4 1  unit 17 region 1
+      dancoff  array 1 2 4 1  unit 17 region 1
+      dancoff  array 1 1 4 1  unit 17 region 1
+      dancoff  array 1 7 3 1  unit 17 region 1
+      'This unit has no fuel
+      dancoff  array 1 5 3 1  unit 17 region 1
+      dancoff  array 1 4 3 1  unit 17 region 1
+      dancoff  array 1 3 3 1  unit 17 region 1
+      dancoff  array 1 2 3 1  unit 17 region 1
+      dancoff  array 1 1 3 1  unit 17 region 1
+      dancoff  array 1 7 2 1  unit 17 region 1
+      'This unit has no fuel
+      dancoff  array 1 5 2 1  unit 17 region 1
+      dancoff  array 1 4 2 1  unit 17 region 1
+      dancoff  array 1 3 2 1  unit 17 region 1
+      dancoff  array 1 2 2 1  unit 17 region 1
+      dancoff  array 1 1 2 1  unit 17 region 1
+      dancoff  array 1 7 1 1  unit 17 region 1
+      dancoff  array 1 6 1 1  unit 17 region 1
+      dancoff  array 1 5 1 1  unit 17 region 1
+      dancoff  array 1 4 1 1  unit 17 region 1
+      dancoff  array 1 3 1 1  unit 17 region 1
+      dancoff  array 1 2 1 1  unit 17 region 1
+      dancoff  array 1 1 1 1  unit 17 region 1
+      end start
+      end data
+
+    module mcdancoff  used 0.09 seconds cpu time for the current pass.
+
+    secondary module worker   will be called at 06:08:50.581 on 12/20/2011.
+
+    module worker   is finished. completion code     0. cpu time used 0.02 seconds.  
+
+    secondary module k6dan    will be called at 06:08:50.611 on 12/20/2011.
+
+    module k6dan    is finished. completion code     0. cpu time used 129.82 seconds.  
+
+    module mcdancoff  is finished. completion code     0. total cpu time used 129.96 seconds.  
+
+    Scale is finished at 06:11:01.196 on 12/20/2011
+_danc00000000000000000 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000000.
+_danc00000000000000001 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000001.
+_danc00000000000000002 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000002.
+_danc00000000000000003 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000003.
+_danc00000000000000004 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000004.
+_danc00000000000000005 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000005.
+_danc00000000000000006 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000006.
+_danc00000000000000007 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000007.
+_danc00000000000000008 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000008.
+_danc00000000000000009 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000009.
+_danc00000000000000010 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000010.
+_danc00000000000000011 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000011.
+_danc00000000000000012 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000012.
+_danc00000000000000013 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000013.
+_danc00000000000000014 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000014.
+_danc00000000000000015 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000015.
+_danc00000000000000016 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000016.
+_danc00000000000000017 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000017.
+_danc00000000000000018 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000018.
+_danc00000000000000019 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000019.
+_danc00000000000000020 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000020.
+_danc00000000000000021 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000021.
+_danc00000000000000022 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000022.
+_danc00000000000000023 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000023.
+_danc00000000000000024 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000024.
+_danc00000000000000025 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000025.
+_danc00000000000000026 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000026.
+_danc00000000000000027 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000027.
+_danc00000000000000028 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000028.
+_danc00000000000000029 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000029.
+_danc00000000000000030 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000030.
+_danc00000000000000031 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000031.
+_danc00000000000000032 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000032.
+_danc00000000000000033 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000033.
+_danc00000000000000034 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000034.
+_danc00000000000000035 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000035.
+_danc00000000000000036 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000036.
+_danc00000000000000037 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000037.
+_danc00000000000000038 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000038.
+_danc00000000000000039 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000039.
+_danc00000000000000040 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000040.
+_danc00000000000000041 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000041.
+_danc00000000000000042 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000042.
+_danc00000000000000043 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000043.
+_danc00000000000000044 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000044.
+_danc00000000000000045 copied to /home/thomas/Dropbox/ORNL_2011/dancoff_util/input_t2.i.mcdan.danc00000000000000045.
+1
+
+
+
+
+
+        ************************************************************************************************************************
+        ************************************************************************************************************************
+        ************************************************************************************************************************
+        *****                                                                                                              *****
+        *****                                       program verification information                                       *****
+        *****                                                                                                              *****
+        *****                                   code system:  SCALE    version:  6.1                                       *****
+        *****                                                                                                              *****
+        ************************************************************************************************************************
+        ************************************************************************************************************************
+        *****                                                                                                              *****
+        *****                                                                                                              *****
+        *****              program:  mcdancoff                                                                             *****
+        *****                                                                                                              *****
+        *****        creation date:  21_jun_2011                                                                           *****
+        *****                                                                                                              *****
+        *****              library:  /home/thomas/programs/scale6.1/Linux_x86_64/bin                                       *****
+        *****                                                                                                              *****
+        *****                                                                                                              *****
+        *****    this is not a SCALE    configuration controlled code                                                      *****
+        *****                                                                                                              *****
+        *****              jobname:  thomas                                                                                *****
+        *****                                                                                                              *****
+        *****         machine name:  thomas-laptop                                                                         *****
+        *****                                                                                                              *****
+        *****    date of execution:  20_dec_2011                                                                           *****
+        *****                                                                                                              *****
+        *****    time of execution:  06:08:50.48                                                                           *****
+        *****                                                                                                              *****
+        *****                                                                                                              *****
+        ************************************************************************************************************************
+        ************************************************************************************************************************
+        ************************************************************************************************************************
+1
+
+ 'batch_args \-m
+
+ '/=T-DEPL parm=(centrm,check)
+
+ '/CHANGED FUEL MAP TO TEST DANCOFF LOGIC
+
+ '/v7-238
+     keno input converted from newt                                                  
+
+     **** problem parameters ****
+
+     lib xn01         library
+
+
+ '
+
+ 'Begin Making Compositions for Assigned Mixtures from the Triton Depletion Block
+
+ 'These Compositions are Assignments for Mixture 1 in Triton
+
+ 'These Compositions are Assignments for Mixture 2 in Triton
+
+ 'These Compositions are Assignments for Mixture 505 in Triton
+
+ 'These Compositions are Assignments for Mixture 4 in Triton
+
+ 'These Compositions are Assignments for Mixture 201 in Triton
+
+ 'These Compositions are Assignments for Mixture 202 in Triton
+
+ 'These Compositions are Assignments for Mixture 203 in Triton
+
+ 'These Compositions are Assignments for Mixture 212 in Triton
+
+ 'These Compositions are Assignments for Mixture 213 in Triton
+
+ 'These Compositions are Assignments for Mixture 502 in Triton
+
+ 'These Compositions are Assignments for Mixture 503 in Triton
+
+ 'These Compositions are Assignments for Mixture 504 in Triton
+
+ 'These Compositions are Assignments for Mixture 500 in Triton
+
+ 'These Compositions are Assignments for Mixture 506 in Triton
+
+ 'These Compositions are Assignments for Mixture 507 in Triton
+
+ 'These Compositions are Assignments for Mixture 501 in Triton
+
+ 'batch_args \-m
+
+ '/=T-DEPL parm=(centrm,check)
+
+ '/CHANGED FUEL MAP TO TEST DANCOFF LOGIC
+
+ '/v7-238
+     mxx          999 maximum mixture number in problem
+     msc          140 composition specifications
+
+     ncell          1 total number of cells
+
+
+     **** problem composition description ****
+ 
+     sc  uo2              standard composition
+     mx             1     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           201     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx             2     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.940 wt%
+                                 92234     0.017 wt%
+                                 92236     0.009 wt%
+                                 92238    98.034 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           202     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.940 wt%
+                                 92234     0.017 wt%
+                                 92236     0.009 wt%
+                                 92238    98.034 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           212     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.940 wt%
+                                 92234     0.017 wt%
+                                 92236     0.009 wt%
+                                 92238    98.034 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           203     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.690 wt%
+                                 92234     0.015 wt%
+                                 92236     0.008 wt%
+                                 92238    98.287 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           213     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.690 wt%
+                                 92234     0.015 wt%
+                                 92236     0.008 wt%
+                                 92238    98.287 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx             4     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.330 wt%
+                                 92234     0.012 wt%
+                                 92236     0.006 wt%
+                                 92238    98.652 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           500     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           501     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           502     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           503     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           504     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           505     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           506     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           507     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           500     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           501     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           502     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           503     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           504     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           505     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           506     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           507     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  zirc2            standard composition
+     mx           101     mixture no.
+     vf        1.0000     volume fraction
+     roth      6.5600     specified density
+     nel            6     no. elements
+     icp            0     0/1 mixture/compound
+     temp       578.7     deg kelvin
+                40000    98.250 wt%
+                50000     1.450 wt%
+                26000     0.135 wt%
+                24000     0.100 wt%
+                28000     0.055 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc2            standard composition
+     mx           102     mixture no.
+     vf        1.0000     volume fraction
+     roth      6.5600     specified density
+     nel            6     no. elements
+     icp            0     0/1 mixture/compound
+     temp       578.7     deg kelvin
+                40000    98.250 wt%
+                50000     1.450 wt%
+                26000     0.135 wt%
+                24000     0.100 wt%
+                28000     0.055 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc2            standard composition
+     mx           103     mixture no.
+     vf        1.0000     volume fraction
+     roth      6.5600     specified density
+     nel            6     no. elements
+     icp            0     0/1 mixture/compound
+     temp       578.7     deg kelvin
+                40000    98.250 wt%
+                50000     1.450 wt%
+                26000     0.135 wt%
+                24000     0.100 wt%
+                28000     0.055 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc2            standard composition
+     mx           104     mixture no.
+     vf        1.0000     volume fraction
+     roth      6.5600     specified density
+     nel            6     no. elements
+     icp            0     0/1 mixture/compound
+     temp       578.7     deg kelvin
+                40000    98.250 wt%
+                50000     1.450 wt%
+                26000     0.135 wt%
+                24000     0.100 wt%
+                28000     0.055 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc2            standard composition
+     mx           105     mixture no.
+     vf        1.0000     volume fraction
+     roth      6.5600     specified density
+     nel            6     no. elements
+     icp            0     0/1 mixture/compound
+     temp       578.7     deg kelvin
+                40000    98.250 wt%
+                50000     1.450 wt%
+                26000     0.135 wt%
+                24000     0.100 wt%
+                28000     0.055 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc2            standard composition
+     mx           301     mixture no.
+     vf        1.0000     volume fraction
+     roth      6.5600     specified density
+     nel            6     no. elements
+     icp            0     0/1 mixture/compound
+     temp       578.7     deg kelvin
+                40000    98.250 wt%
+                50000     1.450 wt%
+                26000     0.135 wt%
+                24000     0.100 wt%
+                28000     0.055 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc2            standard composition
+     mx           302     mixture no.
+     vf        1.0000     volume fraction
+     roth      6.5600     specified density
+     nel            6     no. elements
+     icp            0     0/1 mixture/compound
+     temp       578.7     deg kelvin
+                40000    98.250 wt%
+                50000     1.450 wt%
+                26000     0.135 wt%
+                24000     0.100 wt%
+                28000     0.055 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc2            standard composition
+     mx           303     mixture no.
+     vf        1.0000     volume fraction
+     roth      6.5600     specified density
+     nel            6     no. elements
+     icp            0     0/1 mixture/compound
+     temp       578.7     deg kelvin
+                40000    98.250 wt%
+                50000     1.450 wt%
+                26000     0.135 wt%
+                24000     0.100 wt%
+                28000     0.055 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc2            standard composition
+     mx           304     mixture no.
+     vf        1.0000     volume fraction
+     roth      6.5600     specified density
+     nel            6     no. elements
+     icp            0     0/1 mixture/compound
+     temp       578.7     deg kelvin
+                40000    98.250 wt%
+                50000     1.450 wt%
+                26000     0.135 wt%
+                24000     0.100 wt%
+                28000     0.055 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc2            standard composition
+     mx           305     mixture no.
+     vf        1.0000     volume fraction
+     roth      6.5600     specified density
+     nel            6     no. elements
+     icp            0     0/1 mixture/compound
+     temp       578.7     deg kelvin
+                40000    98.250 wt%
+                50000     1.450 wt%
+                26000     0.135 wt%
+                24000     0.100 wt%
+                28000     0.055 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc4            standard composition
+     mx           630     mixture no.
+     vf        1.0000     volume fraction
+     roth      6.5600     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                40000    98.230 wt%
+                50000     1.450 wt%
+                26000     0.210 wt%
+                24000     0.100 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  ss304            standard composition
+     mx           645     mixture no.
+     vf        1.0000     volume fraction
+     roth      7.9400     specified density
+     nel            7     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 6000     0.080 wt%
+                14000     1.000 wt%
+                15031     0.045 wt%
+                24304    19.000 wt%
+                25055     2.000 wt%
+                26304    68.375 wt%
+                28304     9.500 wt%
+     end                 
+
+
+     sc  b4c              standard composition
+     mx           646     mixture no.
+     vf        1.0000     volume fraction
+     roth      1.7640     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 5000      4.00 atoms/molecule
+                 6000      1.00 atom/molecule
+     end                 
+
+
+     sc  h2o              standard composition
+     mx           111     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.7381     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 1001      2.00 atoms/molecule
+                 8016      1.00 atom/molecule
+     end                 
+
+
+     sc  h2o              standard composition
+     mx           112     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.7381     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 1001      2.00 atoms/molecule
+                 8016      1.00 atom/molecule
+     end                 
+
+
+     sc  h2o              standard composition
+     mx           113     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.7381     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 1001      2.00 atoms/molecule
+                 8016      1.00 atom/molecule
+     end                 
+
+
+     sc  h2o              standard composition
+     mx           114     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.7381     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 1001      2.00 atoms/molecule
+                 8016      1.00 atom/molecule
+     end                 
+
+
+     sc  h2o              standard composition
+     mx           115     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.7381     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 1001      2.00 atoms/molecule
+                 8016      1.00 atom/molecule
+     end                 
+
+
+     sc  h2o              standard composition
+     mx           311     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.7381     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 1001      2.00 atoms/molecule
+                 8016      1.00 atom/molecule
+     end                 
+
+
+     sc  h2o              standard composition
+     mx           312     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.7381     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 1001      2.00 atoms/molecule
+                 8016      1.00 atom/molecule
+     end                 
+
+
+     sc  h2o              standard composition
+     mx           313     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.7381     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 1001      2.00 atoms/molecule
+                 8016      1.00 atom/molecule
+     end                 
+
+
+     sc  h2o              standard composition
+     mx           314     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.7381     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 1001      2.00 atoms/molecule
+                 8016      1.00 atom/molecule
+     end                 
+
+
+     sc  h2o              standard composition
+     mx           315     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.7381     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 1001      2.00 atoms/molecule
+                 8016      1.00 atom/molecule
+     end                 
+
+
+     sc  zirc4            standard composition
+     mx           111     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0465     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                40000    98.230 wt%
+                50000     1.450 wt%
+                26000     0.210 wt%
+                24000     0.100 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc4            standard composition
+     mx           112     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0465     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                40000    98.230 wt%
+                50000     1.450 wt%
+                26000     0.210 wt%
+                24000     0.100 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc4            standard composition
+     mx           113     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0465     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                40000    98.230 wt%
+                50000     1.450 wt%
+                26000     0.210 wt%
+                24000     0.100 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc4            standard composition
+     mx           114     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0465     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                40000    98.230 wt%
+                50000     1.450 wt%
+                26000     0.210 wt%
+                24000     0.100 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc4            standard composition
+     mx           115     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0465     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                40000    98.230 wt%
+                50000     1.450 wt%
+                26000     0.210 wt%
+                24000     0.100 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc4            standard composition
+     mx           311     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0465     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                40000    98.230 wt%
+                50000     1.450 wt%
+                26000     0.210 wt%
+                24000     0.100 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc4            standard composition
+     mx           312     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0465     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                40000    98.230 wt%
+                50000     1.450 wt%
+                26000     0.210 wt%
+                24000     0.100 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc4            standard composition
+     mx           313     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0465     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                40000    98.230 wt%
+                50000     1.450 wt%
+                26000     0.210 wt%
+                24000     0.100 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc4            standard composition
+     mx           314     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0465     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                40000    98.230 wt%
+                50000     1.450 wt%
+                26000     0.210 wt%
+                24000     0.100 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  zirc4            standard composition
+     mx           315     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0465     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                40000    98.230 wt%
+                50000     1.450 wt%
+                26000     0.210 wt%
+                24000     0.100 wt%
+                72000     0.010 wt%
+     end                 
+
+
+     sc  inconel          standard composition
+     mx           111     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0089     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                14000     2.500 wt%
+                22000     2.500 wt%
+                24404    15.000 wt%
+                26404     7.000 wt%
+                28404    73.000 wt%
+     end                 
+
+
+     sc  inconel          standard composition
+     mx           112     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0089     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                14000     2.500 wt%
+                22000     2.500 wt%
+                24404    15.000 wt%
+                26404     7.000 wt%
+                28404    73.000 wt%
+     end                 
+
+
+     sc  inconel          standard composition
+     mx           113     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0089     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                14000     2.500 wt%
+                22000     2.500 wt%
+                24404    15.000 wt%
+                26404     7.000 wt%
+                28404    73.000 wt%
+     end                 
+
+
+     sc  inconel          standard composition
+     mx           114     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0089     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                14000     2.500 wt%
+                22000     2.500 wt%
+                24404    15.000 wt%
+                26404     7.000 wt%
+                28404    73.000 wt%
+     end                 
+
+
+     sc  inconel          standard composition
+     mx           115     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0089     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                14000     2.500 wt%
+                22000     2.500 wt%
+                24404    15.000 wt%
+                26404     7.000 wt%
+                28404    73.000 wt%
+     end                 
+
+
+     sc  inconel          standard composition
+     mx           311     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0089     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                14000     2.500 wt%
+                22000     2.500 wt%
+                24404    15.000 wt%
+                26404     7.000 wt%
+                28404    73.000 wt%
+     end                 
+
+
+     sc  inconel          standard composition
+     mx           312     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0089     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                14000     2.500 wt%
+                22000     2.500 wt%
+                24404    15.000 wt%
+                26404     7.000 wt%
+                28404    73.000 wt%
+     end                 
+
+
+     sc  inconel          standard composition
+     mx           313     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0089     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                14000     2.500 wt%
+                22000     2.500 wt%
+                24404    15.000 wt%
+                26404     7.000 wt%
+                28404    73.000 wt%
+     end                 
+
+
+     sc  inconel          standard composition
+     mx           314     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0089     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                14000     2.500 wt%
+                22000     2.500 wt%
+                24404    15.000 wt%
+                26404     7.000 wt%
+                28404    73.000 wt%
+     end                 
+
+
+     sc  inconel          standard composition
+     mx           315     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0089     specified density
+     nel            5     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                14000     2.500 wt%
+                22000     2.500 wt%
+                24404    15.000 wt%
+                26404     7.000 wt%
+                28404    73.000 wt%
+     end                 
+
+
+     sc  h2o              standard composition
+     mx           620     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.7381     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 1001      2.00 atoms/molecule
+                 8016      1.00 atom/molecule
+     end                 
+
+
+     sc  h2o              standard composition
+     mx           656     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.7381     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 1001      2.00 atoms/molecule
+                 8016      1.00 atom/molecule
+     end                 
+
+
+     sc  h2o              standard composition
+     mx           655     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.7381     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 1001      2.00 atoms/molecule
+                 8016      1.00 atom/molecule
+     end                 
+
+
+     sc  he               standard composition
+     mx           121     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0002     specified density
+     nel            1     no. elements
+     icp            0     0/1 mixture/compound
+     temp       711.2     deg kelvin
+                 2004   100.000 wt%
+     end                 
+
+
+     sc  he               standard composition
+     mx           122     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0002     specified density
+     nel            1     no. elements
+     icp            0     0/1 mixture/compound
+     temp       711.2     deg kelvin
+                 2004   100.000 wt%
+     end                 
+
+
+     sc  he               standard composition
+     mx           123     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0002     specified density
+     nel            1     no. elements
+     icp            0     0/1 mixture/compound
+     temp       711.2     deg kelvin
+                 2004   100.000 wt%
+     end                 
+
+
+     sc  he               standard composition
+     mx           124     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0002     specified density
+     nel            1     no. elements
+     icp            0     0/1 mixture/compound
+     temp       711.2     deg kelvin
+                 2004   100.000 wt%
+     end                 
+
+
+     sc  he               standard composition
+     mx           125     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0002     specified density
+     nel            1     no. elements
+     icp            0     0/1 mixture/compound
+     temp       711.2     deg kelvin
+                 2004   100.000 wt%
+     end                 
+
+
+     sc  he               standard composition
+     mx           321     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0002     specified density
+     nel            1     no. elements
+     icp            0     0/1 mixture/compound
+     temp       711.2     deg kelvin
+                 2004   100.000 wt%
+     end                 
+
+
+     sc  he               standard composition
+     mx           322     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0002     specified density
+     nel            1     no. elements
+     icp            0     0/1 mixture/compound
+     temp       711.2     deg kelvin
+                 2004   100.000 wt%
+     end                 
+
+
+     sc  he               standard composition
+     mx           323     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0002     specified density
+     nel            1     no. elements
+     icp            0     0/1 mixture/compound
+     temp       711.2     deg kelvin
+                 2004   100.000 wt%
+     end                 
+
+
+     sc  he               standard composition
+     mx           324     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0002     specified density
+     nel            1     no. elements
+     icp            0     0/1 mixture/compound
+     temp       711.2     deg kelvin
+                 2004   100.000 wt%
+     end                 
+
+
+     sc  he               standard composition
+     mx           325     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.0002     specified density
+     nel            1     no. elements
+     icp            0     0/1 mixture/compound
+     temp       711.2     deg kelvin
+                 2004   100.000 wt%
+     end                 
+
+
+     sc  h2o              standard composition
+     mx           999     mixture no.
+     vf        1.0000     volume fraction
+     roth      0.7381     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                 1001      2.00 atoms/molecule
+                 8016      1.00 atom/molecule
+     end                 
+
+
+     sc  u-235            standard composition
+     mx           999     mixture no.
+     vf        0.0000     volume fraction
+     roth      0.7381     specified density
+     nel            1     no. elements
+     icp            0     0/1 mixture/compound
+     temp       558.0     deg kelvin
+                92235   100.000 wt%
+
+ '
+
+ 'Begin Making Compositions for Assigned Mixtures from the Triton Depletion Block
+
+ 'These Compositions are Assignments for Mixture 1 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            23     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            24     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            25     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            26     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            34     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            35     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            44     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            45     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            46     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            55     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            56     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            66     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+
+ 'These Compositions are Assignments for Mixture 2 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            22     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.940 wt%
+                                 92234     0.017 wt%
+                                 92236     0.009 wt%
+                                 92238    98.034 wt%
+                 8016      2.00 atoms/molecule
+
+ 'These Compositions are Assignments for Mixture 505 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           335     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           335     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           365     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           365     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+
+ 'These Compositions are Assignments for Mixture 4 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            11     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.330 wt%
+                                 92234     0.012 wt%
+                                 92236     0.006 wt%
+                                 92238    98.652 wt%
+                 8016      2.00 atoms/molecule
+
+ 'These Compositions are Assignments for Mixture 201 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            37     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            47     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            57     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+
+ 'These Compositions are Assignments for Mixture 202 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            14     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.940 wt%
+                                 92234     0.017 wt%
+                                 92236     0.009 wt%
+                                 92238    98.034 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            15     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.940 wt%
+                                 92234     0.017 wt%
+                                 92236     0.009 wt%
+                                 92238    98.034 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            16     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.940 wt%
+                                 92234     0.017 wt%
+                                 92236     0.009 wt%
+                                 92238    98.034 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            27     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.940 wt%
+                                 92234     0.017 wt%
+                                 92236     0.009 wt%
+                                 92238    98.034 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            67     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.940 wt%
+                                 92234     0.017 wt%
+                                 92236     0.009 wt%
+                                 92238    98.034 wt%
+                 8016      2.00 atoms/molecule
+
+ 'These Compositions are Assignments for Mixture 203 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            12     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.690 wt%
+                                 92234     0.015 wt%
+                                 92236     0.008 wt%
+                                 92238    98.287 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            13     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.690 wt%
+                                 92234     0.015 wt%
+                                 92236     0.008 wt%
+                                 92238    98.287 wt%
+                 8016      2.00 atoms/molecule
+
+ 'These Compositions are Assignments for Mixture 212 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            77     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.940 wt%
+                                 92234     0.017 wt%
+                                 92236     0.009 wt%
+                                 92238    98.034 wt%
+                 8016      2.00 atoms/molecule
+
+ 'These Compositions are Assignments for Mixture 213 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            17     mixture no.
+     vf        1.0000     volume fraction
+     roth     10.3200     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     1.690 wt%
+                                 92234     0.015 wt%
+                                 92236     0.008 wt%
+                                 92238    98.287 wt%
+                 8016      2.00 atoms/molecule
+
+ 'These Compositions are Assignments for Mixture 502 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           332     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           332     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           362     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           362     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+
+ 'These Compositions are Assignments for Mixture 503 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           333     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           333     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           363     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           363     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+
+ 'These Compositions are Assignments for Mixture 504 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           334     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           334     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           364     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           364     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+
+ 'These Compositions are Assignments for Mixture 500 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            33     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx            33     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx            36     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx            36     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+
+ 'These Compositions are Assignments for Mixture 506 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           336     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           336     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           366     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           366     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+
+ 'These Compositions are Assignments for Mixture 507 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           337     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           337     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           367     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           367     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+
+ 'These Compositions are Assignments for Mixture 501 in Triton
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           331     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           331     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+     sc  uo2              standard composition
+     mx           361     mixture no.
+     vf        0.9700     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                92000      1.00 atom/molecule
+                                 92235     2.930 wt%
+                                 92234     0.026 wt%
+                                 92236     0.014 wt%
+                                 92238    97.030 wt%
+                 8016      2.00 atoms/molecule
+     end                 
+
+
+     sc  gd2o3            standard composition
+     mx           361     mixture no.
+     vf        0.0300     volume fraction
+     roth     10.1900     specified density
+     nel            2     no. elements
+     icp            1     0/1 mixture/compound
+     temp       948.5     deg kelvin
+                64000      2.00 atoms/molecule
+                 8016      3.00 atoms/molecule
+     end                 
+
+
+
+ *******************************************************************
+   WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
+   all compositions will be treated as infinite homogeneous medium
+ *******************************************************************
+
+
+
+ mip message number mp-22 follows:
+ ***warning***   standard composition specification card(s) missing
+               for mixture number(s)
+         3     5     6     7     8     9    10    18    19    20
+        21    28    29    30    31    32    38    39    40    41
+        42    43    48    49    50    51    52    53    54    58
+        59    60    61    62    63    64    65    68    69    70
+        71    72    73    74    75    76    78    79    80    81
+        82    83    84    85    86    87    88    89    90    91
+        92    93    94    95    96    97    98    99   100   106
+       107   108   109   110   116   117   118   119   120   126
+       127   128   129   130   131   132   133   134   135   136
+       137   138   139   140   141   142   143   144   145   146
+       147   148   149   150   151   152   153   154   155   156
+       157   158   159   160   161   162   163   164   165   166
+       167   168   169   170   171   172   173   174   175   176
+       177   178   179   180   181   182   183   184   185   186
+       187   188   189   190   191   192   193   194   195   196
+       197   198   199   200   204   205   206   207   208   209
+       210   211   214   215   216   217   218   219   220   221
+       222   223   224   225   226   227   228   229   230   231
+       232   233   234   235   236   237   238   239   240   241
+       242   243   244   245   246   247   248   249   250   251
+       252   253   254   255   256   257   258   259   260   261
+       262   263   264   265   266   267   268   269   270   271
+       272   273   274   275   276   277   278   279   280   281
+       282   283   284   285   286   287   288   289   290   291
+       292   293   294   295   296   297   298   299   300   306
+       307   308   309   310   316   317   318   319   320   326
+       327   328   329   330   338   339   340   341   342   343
+       344   345   346   347   348   349   350   351   352   353
+       354   355   356   357   358   359   360   368   369   370
+       371   372   373   374   375   376   377   378   379   380
+       381   382   383   384   385   386   387   388   389   390
+       391   392   393   394   395   396   397   398   399   400
+       401   402   403   404   405   406   407   408   409   410
+       411   412   413   414   415   416   417   418   419   420
+       421   422   423   424   425   426   427   428   429   430
+       431   432   433   434   435   436   437   438   439   440
+       441   442   443   444   445   446   447   448   449   450
+       451   452   453   454   455   456   457   458   459   460
+       461   462   463   464   465   466   467   468   469   470
+       471   472   473   474   475   476   477   478   479   480
+       481   482   483   484   485   486   487   488   489   490
+       491   492   493   494   495   496   497   498   499   508
+       509   510   511   512   513   514   515   516   517   518
+       519   520   521   522   523   524   525   526   527   528
+       529   530   531   532   533   534   535   536   537   538
+       539   540   541   542   543   544   545   546   547   548
+       549   550   551   552   553   554   555   556   557   558
+       559   560   561   562   563   564   565   566   567   568
+       569   570   571   572   573   574   575   576   577   578
+       579   580   581   582   583   584   585   586   587   588
+       589   590   591   592   593   594   595   596   597   598
+       599   600   601   602   603   604   605   606   607   608
+       609   610   611   612   613   614   615   616   617   618
+       619   621   622   623   624   625   626   627   628   629
+       631   632   633   634   635   636   637   638   639   640
+       641   642   643   644   647   648   649   650   651   652
+       653   654   657   658   659   660   661   662   663   664
+       665   666   667   668   669   670   671   672   673   674
+       675   676   677   678   679   680   681   682   683   684
+       685   686   687   688   689   690   691   692   693   694
+       695   696   697   698   699   700   701   702   703   704
+       705   706   707   708   709   710   711   712   713   714
+       715   716   717   718   719   720   721   722   723   724
+       725   726   727   728   729   730   731   732   733   734
+       735   736   737   738   739   740   741   742   743   744
+       745   746   747   748   749   750   751   752   753   754
+       755   756   757   758   759   760   761   762   763   764
+       765   766   767   768   769   770   771   772   773   774
+       775   776   777   778   779   780   781   782   783   784
+       785   786   787   788   789   790   791   792   793   794
+       795   796   797   798   799   800   801   802   803   804
+       805   806   807   808   809   810   811   812   813   814
+       815   816   817   818   819   820   821   822   823   824
+       825   826   827   828   829   830   831   832   833   834
+       835   836   837   838   839   840   841   842   843   844
+       845   846   847   848   849   850   851   852   853   854
+       855   856   857   858   859   860   861   862   863   864
+       865   866   867   868   869   870   871   872   873   874
+       875   876   877   878   879   880   881   882   883   884
+       885   886   887   888   889   890   891   892   893   894
+       895   896   897   898   899   900   901   902   903   904
+       905   906   907   908   909   910   911   912   913   914
+       915   916   917   918   919   920   921   922   923   924
+       925   926   927   928   929   930   931   932   933   934
+       935   936   937   938   939   940   941   942   943   944
+       945   946   947   948   949   950   951   952   953   954
+       955   956   957   958   959   960   961   962   963   964
+       965   966   967   968   969   970   971   972   973   974
+       975   976   977   978   979   980   981   982   983   984
+       985   986   987   988   989   990   991   992   993   994
+       995   996   997   998
+ 
+1       ********************************************************************************************************************
+        ***                                                                                                              ***
+        ***                              keno input converted from newt                                                  ***
+        ***                                                                                                              ***
+        ********************************************************************************************************************
+        ********************************************************************************************************************
+        ***                                                                                                              ***
+        ***                                ********** data library information **********                                ***
+        ***                                                                                                              ***
+        ***          unit                                                                                                ***
+        ***         number               data set name                                unit function                      ***
+        ***         ------               -------------                                -------------                      ***
+        ***                                                                                                              ***
+        ***           89     ->s/programs/scale6.1/data/scale.rev35.sclib             standard composition library       ***
+        ***                                                                                                              ***
+        ***           88     ->as/programs/scale6.1/data/scale.rev02.xn01             cross section library              ***
+        ***                                                                                                              ***
+        ***           11     /tmp/scale.thomas.8448/ft11f001                          short cross section library        ***
+        ***                                                                                                              ***
+        ***           90     /tmp/scale.thomas.8448/xfile090                          input data direct access           ***
+        ***                                                                                                              ***
+        ********************************************************************************************************************
+        ********************************************************************************************************************
+        ***                                                                                                              ***
+        ***                                                                                                              ***
+        ***                                      standard composition library data                                       ***
+        ***                                      ---------------------------------                                       ***
+        ***                                                                                                              ***
+        ***            unit number  :  89                                                                                ***
+        ***                                                                                                              ***
+        ***            dataset name :  ->s/programs/scale6.1/data/scale.rev35.sclib                                      ***
+        ***                                                                                                              ***
+        ***            library title:  scale-6 standard composition library                                              ***
+        ***                               729 standard compositions,   3312 nuclides                                     ***
+        ***                                91 elements with variable isotopic distributions        created on 04/28/11   ***
+        ***                                                                                                              ***
+        ***            creation date:  04/28/11                                                                          ***
+        ***                                                                                                              ***
+        ***                                                                                                              ***
+        ***                                                                                                              ***
+        ***                                          cross section library data                                          ***
+        ***                                         ---------------------------                                          ***
+        ***                                                                                                              ***
+        ***            unit number  :  88                                                                                ***
+        ***                                                                                                              ***
+        ***            dataset name :  ->as/programs/scale6.1/data/scale.rev02.xn01                                      ***
+        ***                                                                                                              ***
+        ***            library title:  1-group lib based on stand. comp. data                                            ***
+        ***                                                                                                              ***
+        ***                                                                                                              ***
+        ***                                                                                                              ***
+        ***                                                                                                              ***
+        ***                                                                                                              ***
+        ***                                                                                                              ***
+        ***                                                                                                              ***
+        ***                                                                                                              ***
+        ********************************************************************************************************************
+        ********************************************************************************************************************
+
+
+     **** H/X data ****
+
+      mixture     H/92233       H/92235       H/94239       H/94241
+          999   0.00000E+00   2.61007E+11   0.00000E+00   0.00000E+00
+
+                                ........ finished before reading k6dan data    ........
+
+                                ........ finished reading the k6dan parameter data    ........
+
+ 'The new surface is defined below
+
+ 'The new array is defined below
+
+ 'Old: array 200 10 place 1 1 1 .23876 0.0 0.0
+
+ 'The new media is defined below
+
+ 'Old: media 655 1 10
+
+ 'The new surface is defined below
+
+ 'The new array is defined below
+
+ 'Old: array 201 10 place 1 1 1 0.0 -9.78916 0.0
+
+ 'The new media is defined below
+
+ 'Old: media 655 1 10
+
+ 'The new surface is defined below
+
+ 'The new array is defined below
+
+ 'Old: array 1 1 place 4 4 1 0.23876 -0.23876 0.0
+
+ 'The new media is defined below
+
+ 'Old: media 111 1 1
+
+ 'This unit has no fuel
+
+ 'This unit has no fuel
+
+ 'This unit has no fuel
+
+
+                               *************** data reading completed ***************
+
+                                ........ finished preparing the k6dan input data    ........
+
+                                ........ finished loading the data    ........
+
+                                ........ finished checking the keno-vi geometry data    ........
+                                *****  restart data has been written on unit 95  *****
+
+                                ........ finished writing the k6dan - c6dan data    ........
+
+                                ........ finished processing c6dan input data    ........
+
+  control module 
+1
+
+
+
+
+
+        ************************************************************************************************************************
+        ************************************************************************************************************************
+        ************************************************************************************************************************
+        *****                                                                                                              *****
+        *****                                       program verification information                                       *****
+        *****                                                                                                              *****
+        *****                                   code system:  SCALE    version:  6.1                                       *****
+        *****                                                                                                              *****
+        ************************************************************************************************************************
+        ************************************************************************************************************************
+        *****                                                                                                              *****
+        *****                                                                                                              *****
+        *****              program:  worker                                                                                *****
+        *****                                                                                                              *****
+        *****        creation date:  21_jun_2011                                                                           *****
+        *****                                                                                                              *****
+        *****              library:  /home/thomas/programs/scale6.1/Linux_x86_64/bin                                       *****
+        *****                                                                                                              *****
+        *****                                                                                                              *****
+        *****    this is not a SCALE    configuration controlled code                                                      *****
+        *****                                                                                                              *****
+        *****              jobname:  thomas                                                                                *****
+        *****                                                                                                              *****
+        *****         machine name:  thomas-laptop                                                                         *****
+        *****                                                                                                              *****
+        *****    date of execution:  20_dec_2011                                                                           *****
+        *****                                                                                                              *****
+        *****    time of execution:  06:08:50.60                                                                           *****
+        *****                                                                                                              *****
+        *****                                                                                                              *****
+        ************************************************************************************************************************
+        ************************************************************************************************************************
+        ************************************************************************************************************************
+1
+
+     0$ array      6 entries read
+
+     1$ array      8 entries read
+
+     1t
+
+     2t
+
+ select   all nuclides from the master  library on logical 11 with filename /tmp/scale.thomas.8448/ft11f001             
+            0 nuclides from the working library on logical  0 with filename  unknown                                    
+              to create the new working library on logical  4 with filename /tmp/scale.thomas.8448/ft04f001             
+           -2 printed output level of the cross section data
+
+  general information concerning the input master cross section library
+        tape identification number                1000
+        number of nuclides on tape                  26
+        number of neutron energy groups              1
+        first thermal neutron energy group           1
+        number of gamma energy groups                0
+
+        the title of the master library is as follows
+
+        1-group lib based on stand. comp. data                                          
+                                                                                        
+                                                                                        
+                                                                                        
+                                                                                        
+
+    direct access unit number   9 (default    ) has blocks of length     16 words
+1Nuclide   1001                                                             id =        1001   temperature=   300.00
+ 
+ Nuclide   2004                                                             id =        2004   temperature=   300.00
+ 
+ Nuclide   5000                                                             id =        5000   temperature=   300.00
+ 
+ Nuclide   6000                                                             id =        6000   temperature=   300.00
+ 
+ Nuclide   8016                                                             id =        8016   temperature=   300.00
+ 
+ Nuclide  14000                                                             id =       14000   temperature=   300.00
+ 
+ Nuclide  15031                                                             id =       15031   temperature=   300.00
+ 
+ Nuclide  22000                                                             id =       22000   temperature=   300.00
+ 
+ Nuclide  24000                                                             id =       24000   temperature=   300.00
+ 
+ Nuclide  24304                                                             id =       24304   temperature=   300.00
+ 
+ Nuclide  24404                                                             id =       24404   temperature=   300.00
+ 
+ Nuclide  25055                                                             id =       25055   temperature=   300.00
+ 
+ Nuclide  26000                                                             id =       26000   temperature=   300.00
+ 
+ Nuclide  26304                                                             id =       26304   temperature=   300.00
+ 
+ Nuclide  26404                                                             id =       26404   temperature=   300.00
+ 
+ Nuclide  28000                                                             id =       28000   temperature=   300.00
+ 
+ Nuclide  28304                                                             id =       28304   temperature=   300.00
+ 
+ Nuclide  28404                                                             id =       28404   temperature=   300.00
+ 
+ Nuclide  40000                                                             id =       40000   temperature=   300.00
+ 
+ Nuclide  50000                                                             id =       50000   temperature=   300.00
+ 
+ Nuclide  64000                                                             id =       64000   temperature=   300.00
+ 
+ Nuclide  72000                                                             id =       72000   temperature=   300.00
+ 
+ Nuclide  92234                                                             id =       92234   temperature=   300.00
+ 
+ Nuclide  92235                                                             id =       92235   temperature=   300.00
+ 
+ Nuclide  92236                                                             id =       92236   temperature=   300.00
+ 
+ Nuclide  92238                                                             id =       92238   temperature=   300.00
+
+   elapsed time   0.00 min.
+1     this ampx working library was created 12/20/11 at 06:08:50.  the filename of the
+       parent master library was/tmp/scale.thomas.8448/ft11f001                       
+      1-group lib based on stand. comp. data                                          
+                                                                                      
+                                                                                      
+          tape id                            1000          number of nuclides                    26
+          number of neutron groups              1          number of gamma groups                 0
+          first thermal group                   1          logical unit                           4
+                                        table of contents
+        Nuclide   1001                                                                  id      1001
+        Nuclide   2004                                                                  id      2004
+        Nuclide   5000                                                                  id      5000
+        Nuclide   6000                                                                  id      6000
+        Nuclide   8016                                                                  id      8016
+        Nuclide  14000                                                                  id     14000
+        Nuclide  15031                                                                  id     15031
+        Nuclide  22000                                                                  id     22000
+        Nuclide  24000                                                                  id     24000
+        Nuclide  24304                                                                  id     24304
+        Nuclide  24404                                                                  id     24404
+        Nuclide  25055                                                                  id     25055
+        Nuclide  26000                                                                  id     26000
+        Nuclide  26304                                                                  id     26304
+        Nuclide  26404                                                                  id     26404
+        Nuclide  28000                                                                  id     28000
+        Nuclide  28304                                                                  id     28304
+        Nuclide  28404                                                                  id     28404
+        Nuclide  40000                                                                  id     40000
+        Nuclide  50000                                                                  id     50000
+        Nuclide  64000                                                                  id     64000
+        Nuclide  72000                                                                  id     72000
+        Nuclide  92234                                                                  id     92234
+        Nuclide  92235                                                                  id     92235
+        Nuclide  92236                                                                  id     92236
+        Nuclide  92238                                                                  id     92238
+
+          tape copy used    0.00 seconds

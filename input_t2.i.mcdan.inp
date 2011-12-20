@@ -1,0 +1,768 @@
+=mcdancoff 
+KENO input converted from NEWT 
+xn01 
+'batch_args \-m 
+'/=T-DEPL parm=(centrm,check)
+'/CHANGED FUEL MAP TO TEST DANCOFF LOGIC
+'/v7-238
+read comp
+uo2 1 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 201 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 2 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+uo2 202 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+uo2 212 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+uo2 203 den=10.320 1.00 948.45 92235 1.69 92234 0.0150 92236 0.0078 92238 98.2872 end
+uo2 213 den=10.320 1.00 948.45 92235 1.69 92234 0.0150 92236 0.0078 92238 98.2872 end
+uo2 4 den=10.320 1.00 948.45 92235 1.33 92234 0.0118 92236 0.0061 92238 98.6520 end
+uo2 500 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 501 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 502 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 503 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 504 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 505 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 506 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 507 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 500 den=10.19 0.03 948.45 end
+gd2o3 501 den=10.19 0.03 948.45 end
+gd2o3 502 den=10.19 0.03 948.45 end
+gd2o3 503 den=10.19 0.03 948.45 end
+gd2o3 504 den=10.19 0.03 948.45 end
+gd2o3 505 den=10.19 0.03 948.45 end
+gd2o3 506 den=10.19 0.03 948.45 end
+gd2o3 507 den=10.19 0.03 948.45 end
+zirc2 101 den=6.56 1 578.71 end
+zirc2 102 den=6.56 1 578.71 end
+zirc2 103 den=6.56 1 578.71 end
+zirc2 104 den=6.56 1 578.71 end
+zirc2 105 den=6.56 1 578.71 end
+zirc2 301 den=6.56 1 578.71 end
+zirc2 302 den=6.56 1 578.71 end
+zirc2 303 den=6.56 1 578.71 end
+zirc2 304 den=6.56 1 578.71 end
+zirc2 305 den=6.56 1 578.71 end
+zirc4 630 den=6.56 1 557.96 end
+ss304 645 den=7.94 1.0000 557.96 end
+b4c 646 den=1.764 1.0000 557.96 end
+h2o 111 den=0.738079 1.0000 557.96 end
+h2o 112 den=0.738079 1.0000 557.96 end
+h2o 113 den=0.738079 1.0000 557.96 end
+h2o 114 den=0.738079 1.0000 557.96 end
+h2o 115 den=0.738079 1.0000 557.96 end
+h2o 311 den=0.738079 1.0000 557.96 end
+h2o 312 den=0.738079 1.0000 557.96 end
+h2o 313 den=0.738079 1.0000 557.96 end
+h2o 314 den=0.738079 1.0000 557.96 end
+h2o 315 den=0.738079 1.0000 557.96 end
+zirc4 111 den=0.046488 1.0000 557.96 end
+zirc4 112 den=0.046488 1.0000 557.96 end
+zirc4 113 den=0.046488 1.0000 557.96 end
+zirc4 114 den=0.046488 1.0000 557.96 end
+zirc4 115 den=0.046488 1.0000 557.96 end
+zirc4 311 den=0.046488 1.0000 557.96 end
+zirc4 312 den=0.046488 1.0000 557.96 end
+zirc4 313 den=0.046488 1.0000 557.96 end
+zirc4 314 den=0.046488 1.0000 557.96 end
+zirc4 315 den=0.046488 1.0000 557.96 end
+inconel 111 den=0.008873 1.0000 557.96 end
+inconel 112 den=0.008873 1.0000 557.96 end
+inconel 113 den=0.008873 1.0000 557.96 end
+inconel 114 den=0.008873 
+1.0000 557.96
+ end
+inconel 115 den=0.008873 1.0000 557.96 end
+inconel 311 den=0.008873 1.0000 557.96 end
+inconel 312 den=0.008873 1.0000 557.96 end
+inconel 313 den=0.008873 1.0000 557.96 end
+inconel 314 den=0.008873 1.0000 557.96 end
+inconel 315 den=0.008873 1.0000 557.96 end
+h2o 620 den=0.738079 1.0000 557.96 end
+h2o 656 den=0.738079 1.0000 557.96 end
+h2o 655 den=0.738079 1.0000 557.96 end
+he 121 den=2.2218E-4 1.0000 711.15 end
+he 122 den=2.2218E-4 1.0000 711.15 end
+he 123 den=2.2218E-4 1.0000 711.15 end
+he 124 den=2.2218E-4 1.0000 711.15 end
+he 125 den=2.2218E-4 1.0000 711.15 end
+he 321 den=2.2218E-4 1.0000 711.15 end
+he 322 den=2.2218E-4 1.0000 711.15 end
+he 323 den=2.2218E-4 1.0000 711.15 end
+he 324 den=2.2218E-4 1.0000 711.15 end
+he 325 den=2.2218E-4 1.0000 711.15 end
+h2o 999 den=0.738079 1.0000 557.96 end 
+u-235 999 den=0.738079 1.e-10 557.96 end 
+'
+'Begin Making Compositions for Assigned Mixtures from the Triton Depletion Block
+'These Compositions are Assignments for Mixture 1 in Triton
+uo2 23 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 24 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 25 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 26 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 34 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 35 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 44 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 45 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 46 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 55 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 56 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 66 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+'These Compositions are Assignments for Mixture 2 in Triton
+uo2 22 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+'These Compositions are Assignments for Mixture 505 in Triton
+uo2 335 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 335 den=10.19 0.03 948.45 end
+uo2 365 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 365 den=10.19 0.03 948.45 end
+'These Compositions are Assignments for Mixture 4 in Triton
+uo2 11 den=10.320 1.00 948.45 92235 1.33 92234 0.0118 92236 0.0061 92238 98.6520 end
+'These Compositions are Assignments for Mixture 201 in Triton
+uo2 37 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 47 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+uo2 57 den=10.320 1.00 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+'These Compositions are Assignments for Mixture 202 in Triton
+uo2 14 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+uo2 15 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+uo2 16 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+uo2 27 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+uo2 67 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+'These Compositions are Assignments for Mixture 203 in Triton
+uo2 12 den=10.320 1.00 948.45 92235 1.69 92234 0.0150 92236 0.0078 92238 98.2872 end
+uo2 13 den=10.320 1.00 948.45 92235 1.69 92234 0.0150 92236 0.0078 92238 98.2872 end
+'These Compositions are Assignments for Mixture 212 in Triton
+uo2 77 den=10.320 1.00 948.45 92235 1.94 92234 0.0173 92236 0.0089 92238 98.0338 end
+'These Compositions are Assignments for Mixture 213 in Triton
+uo2 17 den=10.320 1.00 948.45 92235 1.69 92234 0.0150 92236 0.0078 92238 98.2872 end
+'These Compositions are Assignments for Mixture 502 in Triton
+uo2 332 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 332 den=10.19 0.03 948.45 end
+uo2 362 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 362 den=10.19 0.03 948.45 end
+'These Compositions are Assignments for Mixture 503 in Triton
+uo2 333 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 333 den=10.19 0.03 948.45 end
+uo2 363 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 363 den=10.19 0.03 948.45 end
+'These Compositions are Assignments for Mixture 504 in Triton
+uo2 334 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 334 den=10.19 0.03 948.45 end
+uo2 364 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 364 den=10.19 0.03 948.45 end
+'These Compositions are Assignments for Mixture 500 in Triton
+uo2 33 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 33 den=10.19 0.03 948.45 end
+uo2 36 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 36 den=10.19 0.03 948.45 end
+'These Compositions are Assignments for Mixture 506 in Triton
+uo2 336 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 336 den=10.19 0.03 948.45 end
+uo2 366 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 366 den=10.19 0.03 948.45 end
+'These Compositions are Assignments for Mixture 507 in Triton
+uo2 337 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 337 den=10.19 0.03 948.45 end
+uo2 367 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 367 den=10.19 0.03 948.45 end
+'These Compositions are Assignments for Mixture 501 in Triton
+uo2 331 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 331 den=10.19 0.03 948.45 end
+uo2 361 den=10.19 0.97 948.45 92235 2.93 92234 0.0261 92236 0.0135 92238 97.0304 end
+gd2o3 361 den=10.19 0.03 948.45 end
+end comp
+read parm 
+     htm=no 
+     gen=100 
+     npg=500 
+     nsk=0 
+end parm 
+read geom 
+unit 11 
+cylinder 1 6.0579e-1 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 11 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 12 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 12 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 13 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 13 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 14 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 14 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 15 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 15 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 16 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 16 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 17 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 17 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 22 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 22 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 23 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 23 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 24 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 24 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 25 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 25 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 26 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 26 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 27 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 27 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 33 
+cylinder 1 0.21418 20.0 -20.0 
+cylinder 2 0.30290 20.0 -20.0 
+cylinder 3 0.37097 20.0 -20.0 
+cylinder 4 0.42836 20.0 -20.0 
+cylinder 5 0.47892 20.0 -20.0 
+cylinder 6 0.52463 20.0 -20.0 
+cylinder 7 0.56666 20.0 -20.0 
+cylinder 8 0.60579 20.0 -20.0 
+cylinder 9 0.62103 20.0 -20.0 
+cylinder 10 0.71501 20.0 -20.0 
+cylinder 11 0.74501 20.0 -20.0 
+cylinder 12 0.77501 20.0 -20.0 
+cylinder 13 0.80501 20.0 -20.0 
+cuboid 14 4p0.93726 20.0 -20.0 
+media 33 1 1 
+media 331 1 2 -1 
+media 332 1 3 -2 
+media 333 1 4 -3 
+media 334 1 5 -4 
+media 335 1 6 -5 
+media 336 1 7 -6 
+media 337 1 8 -7 
+media 121 1 9 -8 
+media 101 1 10 -9 
+media 111 1 11 -10 
+media 111 1 12 -11 
+media 111 1 13 -12 
+media 111 1 14 -13 
+boundary 14
+unit 34 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 34 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 35 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 35 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 36 
+cylinder 1 0.21418 20.0 -20.0 
+cylinder 2 0.30290 20.0 -20.0 
+cylinder 3 0.37097 20.0 -20.0 
+cylinder 4 0.42836 20.0 -20.0 
+cylinder 5 0.47892 20.0 -20.0 
+cylinder 6 0.52463 20.0 -20.0 
+cylinder 7 0.56666 20.0 -20.0 
+cylinder 8 0.60579 20.0 -20.0 
+cylinder 9 0.62103 20.0 -20.0 
+cylinder 10 0.71501 20.0 -20.0 
+cylinder 11 0.74501 20.0 -20.0 
+cylinder 12 0.77501 20.0 -20.0 
+cylinder 13 0.80501 20.0 -20.0 
+cuboid 14 4p0.93726 20.0 -20.0 
+media 36 1 1 
+media 361 1 2 -1 
+media 362 1 3 -2 
+media 363 1 4 -3 
+media 364 1 5 -4 
+media 365 1 6 -5 
+media 366 1 7 -6 
+media 367 1 8 -7 
+media 121 1 9 -8 
+media 101 1 10 -9 
+media 111 1 11 -10 
+media 111 1 12 -11 
+media 111 1 13 -12 
+media 111 1 14 -13 
+boundary 14
+unit 37 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 37 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+
+unit 44 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 111 1 1 
+media 111 1 2 -1 
+media 111 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+
+unit 45 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 45 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 46 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 46 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 47 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 47 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 55 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 55 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 56 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 56 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 57 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 57 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 66 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 66 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 67 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 67 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 77 
+cylinder 1 0.60579 20.0 -20.0 
+cylinder 2 0.62103 20.0 -20.0 
+cylinder 3 0.71501 20.0 -20.0 
+cylinder 4 0.78501 20.0 -20.0 
+cuboid 5 4p0.93726 20.0 -20.0 
+media 77 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+boundary 5
+unit 80 
+cylinder 1 0.60579 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 2 0.62103 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 3 0.71501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 4 0.78501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 5 0.9652 20.0 -20.0 chord +x=0.0 chord +y=0.0
+cylinder 6 1.1684 20.0 -20.0 chord +x=0.0 chord +y=0.0
+cuboid 7 1.2 0.0 1.2 0.0 20.0 -20.0 
+media 17 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+media 630 1 6 -5 
+media 620 1 7 -6 
+boundary 7
+unit 81 
+cylinder 1 0.60579 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 2 0.62103 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 3 0.71501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 4 0.78501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 5 0.9652 20.0 -20.0 chord +x=0.0 chord +y=0.0
+cylinder 6 1.1684 20.0 -20.0 chord +x=0.0 chord +y=0.0
+cuboid 7 1.2 0.0 1.2 0.0 20.0 -20.0 
+media 11 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+media 630 1 6 -5 
+media 620 1 7 -6 
+boundary 7
+unit 82 
+cylinder 1 0.60579 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 2 0.62103 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 3 0.71501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 4 0.78501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 5 0.9652 20.0 -20.0 chord +x=0.0 chord +y=0.0
+cylinder 6 1.1684 20.0 -20.0 chord +x=0.0 chord +y=0.0
+cuboid 7 1.2 0.0 1.2 0.0 20.0 -20.0 
+media 17 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+media 630 1 6 -5 
+media 620 1 7 -6 
+boundary 7
+unit 83 
+cylinder 1 0.60579 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 2 0.62103 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 3 0.71501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 4 0.78501 20.0 -20.0 chord +x=0.0 chord +y=0.0 origin x=-0.1143 y=-0.1143
+cylinder 5 0.9652 20.0 -20.0 chord +x=0.0 chord +y=0.0
+cylinder 6 1.1684 20.0 -20.0 chord +x=0.0 chord +y=0.0
+cuboid 7 1.2 0.0 1.2 0.0 20.0 -20.0 
+media 77 1 1 
+media 121 1 2 -1 
+media 101 1 3 -2 
+media 111 1 4 -3 
+media 111 1 5 -4 
+media 630 1 6 -5 
+media 620 1 7 -6 
+boundary 7
+unit 200 
+com='control wing half-pellet' 
+cylinder 10 0.17526 20.0 -20.0 chord -y=0
+cylinder 20 0.23876 20.0 -20.0 chord -y=0
+cuboid 40 0.23876 -0.23876 0 -0.25400 20.0 -20.0 
+media 656 1 10 
+media 655 1 -10 20 
+media 620 1 -20 40 
+boundary 40
+unit 201 
+com='control wing half-pellet' 
+cylinder 10 0.17526 20.0 -20.0 chord +x=0
+cylinder 20 0.23876 20.0 -20.0 chord +x=0
+cuboid 40 0.25400 0.0 0.23876 -0.23876 20.0 -20.0 
+media 656 1 10 
+media 655 1 -10 20 
+media 620 1 -20 40 
+boundary 40
+ 
+unit 202 
+com='control blade wing' 
+'The new surface is defined below 
+cuboid 999 10.02792 0.0 0.0 -0.254 20.0 -20.0
+cuboid 10 10.17016 0.0 0.0 -0.39625 20.0 -20.0 
+'The new array is defined below 
+array 200 999 place 1 1 1 .23876 0.0 0.0
+'Old: array 200 10 place 1 1 1 .23876 0.0 0.0 
+'The new media is defined below 
+media 655 1 10  -999
+'Old: media 655 1 10 
+boundary 10
+
+unit 203 
+com='control blade wing' 
+'The new surface is defined below 
+cuboid 999 0.254 0.0 0.0 -10.02792 20.0 -20.0
+cuboid 10 0.39625 0.0 0.0 -10.17016 20.0 -20.0 
+'The new array is defined below 
+array 201 999 place 1 1 1 0.0 -9.78916 0.0
+'Old: array 201 10 place 1 1 1 0.0 -9.78916 0.0 
+'The new media is defined below 
+media 655 1 10  -999
+'Old: media 655 1 10 
+boundary 10
+
+unit 205 
+com='control blade central support' 
+cuboid 10 2.21234 0.0 0.0 -0.39625 20.0 -20.0 
+media 655 1 10 
+boundary 10
+
+unit 206
+com='control blade central support - vertical part' 
+cuboid 10 0.39625 0.0 -0.39625 -2.21234 20.0 -20.0 
+media 655 1 10 
+boundary 10
+ 
+
+global unit 100 
+'The new surface is defined below 
+cuboid 999 6.79958 -6.32206 6.32206 -6.79958 20.0 -20.0
+cuboid 1 6.94182 -6.46430 6.46430 -6.94182 20.0 -20.0 
+'The new array is defined below 
+array 1 999 place 4 4 1 0.23876 -0.23876 0.0
+'Old: array 1 1 place 4 4 1 0.23876 -0.23876 0.0 
+cuboid 2 7.14502 -6.66750 6.66750 -7.14502 20.0 -20.0 
+cuboid 10 4p7.62 20.0 -20.0 
+'The new media is defined below 
+media 111 1 1  -999
+'Old: media 111 1 1 
+media 630 1 2 -1 
+media 620 1 10 -2 
+hole 80 origin x= 5.97662 y= 5.49910 
+hole 81 origin x=-5.49910 y= 5.49910 rotate a1= 90 
+hole 82 origin x=-5.49910 y=-5.97662 rotate a1=180 
+hole 83 origin x= 5.97662 y=-5.97662 rotate a1=270 
+hole 202 origin x=-5.40766 y= 7.62 
+hole 203 origin x=-7.62 y= 5.40766 
+hole 205 origin x=-7.62 y= 7.62 
+hole 206 origin x=-7.62 y= 7.62
+boundary 10
+end geom                                                                                                                                                                                                                                                    
+read array                                                                                                                                                                                                                                                  
+ara=1 nux=7 nuz=1 nuy=7 typ=cuboidal
+fill                                                                                                                                                                                                                                                        
+17  17  17  17  17  17  17
+17  17  17  17  17  44  17
+17  17  17  17  17  44  17
+17  17  17  17  17  17  17
+17  17  17  17  17  44  17
+17  17  17  17  17  17  17                                                                                                                                                                                                                              
+17  17  17  17  17  17  17 end fill                                                                                                                                                                                                                         
+ara=200  nux=21  nuz=1  nuy=1
+fill 21r200  end fill                                                                                                                                                                                                                                       
+ara=201  nux=1  nuz=1  nuy=21
+fill 21r201  end fill                                                                                                                                                                                                                                       
+end array                                                                                                                                                                                                                                                   
+read bounds                                                                                                                                                                                                                                                 
+all=refl                                                                                                                                                                                                                                                   
+end bounds                                                                                                                                                                                                                                                  
+read start 
+dancoff  array 1 7 7 1  unit 17 region 1
+dancoff  array 1 6 7 1  unit 17 region 1
+dancoff  array 1 5 7 1  unit 17 region 1
+dancoff  array 1 4 7 1  unit 17 region 1
+dancoff  array 1 3 7 1  unit 17 region 1
+dancoff  array 1 2 7 1  unit 17 region 1
+dancoff  array 1 1 7 1  unit 17 region 1
+dancoff  array 1 7 6 1  unit 17 region 1
+dancoff  array 1 6 6 1  unit 17 region 1
+dancoff  array 1 5 6 1  unit 17 region 1
+dancoff  array 1 4 6 1  unit 17 region 1
+dancoff  array 1 3 6 1  unit 17 region 1
+'This unit has no fuel 
+dancoff  array 1 1 6 1  unit 17 region 1
+dancoff  array 1 7 5 1  unit 17 region 1
+dancoff  array 1 6 5 1  unit 17 region 1
+dancoff  array 1 5 5 1  unit 17 region 1
+dancoff  array 1 4 5 1  unit 17 region 1
+dancoff  array 1 3 5 1  unit 17 region 1
+'This unit has no fuel 
+dancoff  array 1 1 5 1  unit 17 region 1
+dancoff  array 1 7 4 1  unit 17 region 1
+dancoff  array 1 6 4 1  unit 17 region 1
+dancoff  array 1 5 4 1  unit 17 region 1
+dancoff  array 1 4 4 1  unit 17 region 1
+dancoff  array 1 3 4 1  unit 17 region 1
+dancoff  array 1 2 4 1  unit 17 region 1
+dancoff  array 1 1 4 1  unit 17 region 1
+dancoff  array 1 7 3 1  unit 17 region 1
+dancoff  array 1 6 3 1  unit 17 region 1
+dancoff  array 1 5 3 1  unit 17 region 1
+dancoff  array 1 4 3 1  unit 17 region 1
+dancoff  array 1 3 3 1  unit 17 region 1
+'This unit has no fuel 
+dancoff  array 1 1 3 1  unit 17 region 1
+dancoff  array 1 7 2 1  unit 17 region 1
+dancoff  array 1 6 2 1  unit 17 region 1
+dancoff  array 1 5 2 1  unit 17 region 1
+dancoff  array 1 4 2 1  unit 17 region 1
+dancoff  array 1 3 2 1  unit 17 region 1
+dancoff  array 1 2 2 1  unit 17 region 1
+dancoff  array 1 1 2 1  unit 17 region 1
+dancoff  array 1 7 1 1  unit 17 region 1
+dancoff  array 1 6 1 1  unit 17 region 1
+dancoff  array 1 5 1 1  unit 17 region 1
+dancoff  array 1 4 1 1  unit 17 region 1
+dancoff  array 1 3 1 1  unit 17 region 1
+dancoff  array 1 2 1 1  unit 17 region 1
+dancoff  array 1 1 1 1  unit 17 region 1
+end start 
+end data
+end
+
